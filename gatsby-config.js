@@ -9,8 +9,8 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `haon.theme`,
-    description: `Hello! This is a tech blog theme using Gatsby 🤩`,
+    title: `haon.blog`,
+    description: `꾸준히 성장하는 과정속에서, 배움을 공유하고자 글을 작성하는 블로그입니다.`,
     author: `Haon`,
     siteUrl: `https://gatsby-starter-haon.netlify.app`,
     keywords: [`server`, `backend`, `gatsby`], 
