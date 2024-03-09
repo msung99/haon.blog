@@ -221,11 +221,9 @@ $ kill -9 {pid번호}
 
 ## 참고
 
-https://dev-jwblog.tistory.com/42#1.%20%EB%AC%B4%EC%A4%91%EB%8B%A8%20%EB%B0%B0%ED%8F%AC%C2%A0
-
-https://velog.io/@hwsa1004/SpringBootAWSRDS-%EC%84%9C%EB%B2%84-%EB%AC%B4%EC%A4%91%EB%8B%A8-%EB%B0%B0%ED%8F%AC%ED%95%98%EA%B8%B0-EC2%ED%8E%B8-
-
-https://rypro.tistory.com/218#recentComments
-https://realsalmon.tistory.com/3
-https://suyeoniii.tistory.com/52
-https://velog.io/@bbodela/AWS-EC2
+- https://dev-jwblog.tistory.com/42#1.%20%EB%AC%B4%EC%A4%91%EB%8B%A8%20%EB%B0%B0%ED%8F%AC%C2%A0
+- https://velog.io/@hwsa1004/SpringBootAWSRDS-%EC%84%9C%EB%B2%84-%EB%AC%B4%EC%A4%91%EB%8B%A8-%EB%B0%B0%ED%8F%AC%ED%95%98%EA%B8%B0-EC2%ED%8E%B8-
+- https://rypro.tistory.com/218#recentComments
+- https://realsalmon.tistory.com/3
+- https://suyeoniii.tistory.com/52
+- https://velog.io/@bbodela/AWS-EC2
