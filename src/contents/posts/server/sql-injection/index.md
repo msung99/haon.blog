@@ -1,6 +1,6 @@
 ---
 title: SQL Injection 공격기법과 유형에 대해 알아보자!
-date: "2022-12-14"
+date: "2022-12-29"
 tags:
   - SQL Injection
   - HTTP
