@@ -6,6 +6,7 @@ tags:
   - JPA
   - 낙관적 락
   - 동시성
+previewImage: spring.png
 ---
 
 ## 락(Lock) 은 왜 필요한가?

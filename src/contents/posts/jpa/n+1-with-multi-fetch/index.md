@@ -5,6 +5,7 @@ tags:
   - JPA
   - 스프링
   - N+1문제
+previewImage: spring.png
 ---
 
 ## 문제 발생배경

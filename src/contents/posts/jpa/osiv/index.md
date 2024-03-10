@@ -5,6 +5,7 @@ date: "2023-08-05"
 tags:
   - JPA
   - OSIV
+previewImage: spring.png
 ---
 
 ## OSIV(Open Session In View)

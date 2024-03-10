@@ -3,6 +3,7 @@ title: JPA의 영속성 컨텍스트 핵심 개념
 date: "2023-03-30"
 tags:
   - JPA
+previewImage: spring.png
 ---
 
 ## 학습배경

@@ -8,6 +8,7 @@ tags:
   - 동시성
   - 공유락
   - 배타락
+previewImage: spring.png
 ---
 
 [JPA 의 낙관적 락(Optimistic Lock) 과 비관적 락(Pessimistic Lock) 으로 엔티티에 대한 동시성 이슈 제어하기](https://velog.io/@msung99/JPA-%EB%82%99%EA%B4%80%EC%A0%81-%EB%9D%BDOptimistic-Lock-%EA%B3%BC-%EB%B9%84%EA%B4%80%EC%A0%81-%EB%9D%BDPessimistic-Lock-%EC%9D%84-%ED%86%B5%ED%95%9C-%EB%8F%99%EC%8B%9C%EC%84%B1-%EC%9D%B4%EC%8A%88-%ED%95%B4%EA%B2%B0) 에서도 설명했듯이, 비관적 락은 여러 트랜잭션간의 충돌이 발생한다는 가정하에 우선 락을 걸고 보는 방법이였습니다.

@@ -5,6 +5,7 @@ tags:
   - JPA
   - JdbcTemplate
   - 벌크연산
+previewImage: jpa.png
 ---
 
 ## 문제 발생배경
