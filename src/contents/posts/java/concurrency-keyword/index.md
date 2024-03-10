@@ -1,5 +1,5 @@
 ---
-title: 자바의 동시성 제어 키워드 : volatile 과 synchornized
+title: "자바의 동시성 제어 키워드 : volatile 과 synchornized"
 date: "2024-03-13"
 tags:
   - 동시성
