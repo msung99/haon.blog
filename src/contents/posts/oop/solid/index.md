@@ -1,5 +1,5 @@
 ---
-title: 객체지향을 아는척 하지 말자 : 예재로 이해하는 SOLID 5원칙
+title: 예재로 이해하는 SOLID 5원칙
 description: SOLID 를 예제로 이해해보자!
 date: "2023-01-21"
 tags:
