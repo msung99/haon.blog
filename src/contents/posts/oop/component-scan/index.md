@@ -1,5 +1,5 @@
 ---
-title: @Component - 컴포넌트 스캔의 필요성에 대해
+title: Component - 컴포넌트 스캔의 필요성에 대해
 description: 컴포넌트 스캔은 왜 필요한가?
 date: "2023-01-23"
 tags:
