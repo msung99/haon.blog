@@ -4,6 +4,7 @@ date: "2023-08-29"
 tags:
   - JAVA
 previewImage: design-pattern.png
+series: JAVA, 객체지향, 디자인패턴 학습기록
 ---
 
 ## 전통적인 public 생성자

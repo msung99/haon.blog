@@ -5,6 +5,7 @@ tags:
   - JAVA
   - 디자인패턴
 previewImage: design-pattern.png
+series: JAVA, 객체지향, 디자인패턴 학습기록
 ---
 
 ## 커맨드 패턴

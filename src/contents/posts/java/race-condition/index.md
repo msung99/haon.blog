@@ -5,6 +5,7 @@ date: "2023-03-13"
 tags:
   - 동시성
 previewImage: java.png
+series: JAVA, 객체지향, 디자인패턴 학습기록
 ---
 
 ## 경쟁상태란?

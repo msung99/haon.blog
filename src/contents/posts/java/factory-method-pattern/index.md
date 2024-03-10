@@ -5,6 +5,7 @@ tags:
   - JAVA
   - 디자인패턴
 previewImage: java.png
+series: JAVA, 객체지향, 디자인패턴 학습기록
 ---
 
 ## 팩토리 메소드 패턴
