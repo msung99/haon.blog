@@ -5,6 +5,7 @@ tags:
   - 공부법
   - 회고
   - 메타인지
+previewImage: book.png
 ---
 
 ## 시작에 앞서
