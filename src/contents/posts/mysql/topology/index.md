@@ -6,6 +6,7 @@ tags:
   - 레플리케이션
   - 토폴로지
 previewImage: mysql.png
+series: MySQL InnoDB 아키텍처 개선 과정
 ---
 
 ## 학습 및 도입배경

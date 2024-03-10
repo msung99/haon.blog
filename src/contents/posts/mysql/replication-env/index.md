@@ -7,6 +7,7 @@ tags:
   - 데이터베이스
   - Master/Slave
 previewImage: mysql.png
+series: MySQL InnoDB 아키텍처 개선 과정
 ---
 
 ## 레플리케이션 도입배경

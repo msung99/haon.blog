@@ -7,6 +7,7 @@ tags:
   - 클러스터링
   - 샤딩
 previewImage: mysql.png
+series: MySQL InnoDB 아키텍처 개선 과정
 ---
 
 ## 학습배경
