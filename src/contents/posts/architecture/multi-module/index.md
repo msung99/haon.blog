@@ -7,6 +7,7 @@ tags:
   - gradle
   - MSA
 previewImage: architecture.png
+series: Hexagonal Architecture
 ---
 
 ## 학습배경

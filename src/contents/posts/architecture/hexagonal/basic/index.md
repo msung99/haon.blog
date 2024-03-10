@@ -5,6 +5,7 @@ tags:
   - 아키텍처
   - 헥사고날 아키텍처
 previewImage: architecture.png
+series: Hexagonal Architecture
 ---
 
 > 헥사고날 아키텍처는 "의존성 역전"에서 부터 시작한다.

@@ -5,6 +5,7 @@ tags:
   - 아키텍처
   - 헥사고날 아키텍처
 previewImage: architecture.png
+series: Hexagonal Architecture
 ---
 
 ## 학습배경

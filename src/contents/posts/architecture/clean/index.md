@@ -4,6 +4,7 @@ date: "2023-04-25"
 tags:
   - 아키텍처
 previewImage: architecture.png
+series: Hexagonal Architecture
 ---
 
 ## 아키텍처란
