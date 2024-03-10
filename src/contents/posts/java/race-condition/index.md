@@ -1,7 +1,7 @@
 ---
 title: 경쟁 상태의 2가지 패턴. Check-Then-Act, Read-Modify-Write
 description: 경쟁 상태(Race Condition) 이 발생하는 대표적인 전형 2가지를 알아봅시다.
-date: "2024-03-13"
+date: "2023-03-13"
 tags:
   - 동시성
 ---
