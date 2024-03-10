@@ -4,6 +4,7 @@ date: "2023-10-24"
 tags:
   - JAVA
   - stream
+previewImage: java.png
 ---
 
 ## 학습배경

@@ -4,6 +4,7 @@ date: "2023-08-30"
 tags:
   - JAVA
   - enum
+previewImage: java.png
 ---
 
 ## 학습배경

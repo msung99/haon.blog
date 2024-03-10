@@ -4,6 +4,7 @@ date: "2023-09-13"
 tags:
   - JAVA
   - 동등성
+previewImage: java.png
 ---
 
 ## 학습배경

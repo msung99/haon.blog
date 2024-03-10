@@ -5,6 +5,7 @@ tags:
   - JAVA
   - enum
   - EnumMap
+previewImage: java.png
 ---
 
 ## EnumMap

@@ -7,6 +7,7 @@ tags:
   - synchornized
   - atomic
   - volatile
+previewImage: java.png
 ---
 
 ## volatile 과 가시성

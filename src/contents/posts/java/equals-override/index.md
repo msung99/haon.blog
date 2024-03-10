@@ -4,6 +4,7 @@ date: "2023-09-04"
 tags:
   - JAVA
   - equals
+previewImage: java.png
 ---
 
 ## 학습베경

@@ -4,6 +4,7 @@ date: "2023-11-06"
 tags:
   - JAVA
   - 디자인패턴
+previewImage: design-pattern.png
 ---
 
 ## 전략패턴

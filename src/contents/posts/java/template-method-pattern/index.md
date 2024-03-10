@@ -4,6 +4,7 @@ date: "2023-09-01"
 tags:
   - JAVA
   - 디자인패턴
+previewImage: design-pattern.png
 ---
 
 ## 학습동기

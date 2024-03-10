@@ -5,6 +5,7 @@ tags:
   - JAVA
   - Comparator
   - Comparable
+previewImage: java.png
 ---
 
 ## 학습배경

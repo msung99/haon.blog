@@ -3,6 +3,7 @@ title: 자바 String, StringBuilder, StringBuffer 개념
 date: "2023-08-18"
 tags:
   - JAVA
+previewImage: java.png
 ---
 
 ## String 클래스

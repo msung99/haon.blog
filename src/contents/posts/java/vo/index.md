@@ -4,6 +4,7 @@ date: "2023-09-13"
 tags:
   - JAVA
   - VO
+previewImage: java.png
 ---
 
 ## VO(Value Object)

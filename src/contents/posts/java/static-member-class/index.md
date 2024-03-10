@@ -3,6 +3,7 @@ title: 자바의 멤버 클래스는 되도록 static을 붙여서 정적 멤버
 date: "2023-08-29"
 tags:
   - JAVA
+previewImage: java.png
 ---
 
 ## 중첩 클래스

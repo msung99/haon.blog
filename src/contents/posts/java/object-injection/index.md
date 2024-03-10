@@ -4,6 +4,7 @@ date: "2023-08-29"
 tags:
   - JAVA
   - 싱글톤
+previewImage: java.png
 ---
 
 ## 학습배경

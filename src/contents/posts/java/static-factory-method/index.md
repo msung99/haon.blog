@@ -3,6 +3,7 @@ title: 생성자 대신 정적 팩터리 메서드 사용을 고려하라
 date: "2023-08-29"
 tags:
   - JAVA
+previewImage: design-pattern.png
 ---
 
 ## 전통적인 public 생성자

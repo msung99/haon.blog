@@ -5,6 +5,7 @@ tags:
   - JAVA
   - BigInteger
   - BigDecimal
+previewImage: java.png
 ---
 
 ## BigInteger

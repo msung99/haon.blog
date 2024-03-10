@@ -3,6 +3,7 @@ title: 자바 컬렉션(Collection) 의 개념과 종류
 date: "2023-08-18"
 tags:
   - JAVA
+previewImage: java.png
 ---
 
 ## 학습배경

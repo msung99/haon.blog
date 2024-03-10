@@ -4,6 +4,7 @@ description: 경쟁 상태(Race Condition) 이 발생하는 대표적인 전형 
 date: "2023-03-13"
 tags:
   - 동시성
+previewImage: java.png
 ---
 
 ## 경쟁상태란?
