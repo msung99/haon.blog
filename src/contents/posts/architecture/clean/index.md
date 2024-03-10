@@ -3,6 +3,7 @@ title: 클린 아키텍처는 의존성 문제를 어떻게 해결했는가?
 date: "2023-04-25"
 tags:
   - 아키텍처
+previewImage: architecture.png
 ---
 
 ## 아키텍처란

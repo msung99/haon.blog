@@ -6,6 +6,7 @@ tags:
   - 아키텍처
   - gradle
   - MSA
+previewImage: architecture.png
 ---
 
 ## 학습배경

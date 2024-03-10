@@ -4,6 +4,7 @@ date: "2023-05-13"
 tags:
   - 아키텍처
   - 헥사고날 아키텍처
+previewImage: architecture.png
 ---
 
 ## 학습배경
