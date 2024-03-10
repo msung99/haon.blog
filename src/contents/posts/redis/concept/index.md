@@ -4,6 +4,7 @@ description: Redis 의 핵심 개념과 동작원리를 알아보자.
 date: "2023-02-20"
 tags:
   - Redis
+previewImage: redis.png
 ---
 
 ---

@@ -4,6 +4,7 @@ date: "2023-06-16"
 tags:
   - Redis
   - 캐싱
+previewImage: redis.png
 ---
 
 ## RedisConfig

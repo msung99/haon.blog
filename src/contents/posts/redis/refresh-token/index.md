@@ -4,6 +4,7 @@ date: "2023-03-01"
 tags:
   - Redis
   - 인증/인가
+previewImage: redis.png
 ---
 
 ## 시작에 앞서
