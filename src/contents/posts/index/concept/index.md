@@ -6,6 +6,7 @@ tags:
   - 인덱스
   - MySQL
 previewImage: index.png
+series: MySQL 8.0 인덱스(index) 학습기록
 ---
 
 ## 인덱스 (Index)
