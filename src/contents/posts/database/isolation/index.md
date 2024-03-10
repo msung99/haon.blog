@@ -6,6 +6,7 @@ tags:
   - 트랜잭션
   - ACID
 previewImage: database.png
+series: Database Core Concept
 ---
 
 ## 트랜잭션(Transaction) 의 성질 : ACID

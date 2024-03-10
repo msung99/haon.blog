@@ -5,6 +5,7 @@ tags:
   - 데이터베이스
   - 트랜잭션
 previewImage: database.png
+series: Database Core Concept
 ---
 
 > 현재 소개하는 트랜잭션 기능은 SpringBoot 를 기준으로 진행함을 알려드립니다.
