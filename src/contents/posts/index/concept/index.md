@@ -1,9 +1,10 @@
 ---
 title: MySQL B+Tree 구조를 통한 인덱스(Index) 연산 방식
-date: "2023-06-12"
+date: "2023-06-13"
 tags:
   - 데이터베이스
   - 인덱스
+  - MySQL
 ---
 
 ## 인덱스 (Index)
