@@ -5,6 +5,7 @@ tags:
   - MySQL
   - 레플리케이션
   - 토폴로지
+previewImage: mysql.png
 ---
 
 ## 학습 및 도입배경

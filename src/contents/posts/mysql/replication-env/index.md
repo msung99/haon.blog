@@ -6,6 +6,7 @@ tags:
   - 레플리케이션
   - 데이터베이스
   - Master/Slave
+previewImage: mysql.png
 ---
 
 ## 레플리케이션 도입배경

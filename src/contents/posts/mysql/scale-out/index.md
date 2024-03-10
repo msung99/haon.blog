@@ -6,6 +6,7 @@ tags:
   - MySQL
   - 클러스터링
   - 샤딩
+previewImage: mysql.png
 ---
 
 ## 학습배경

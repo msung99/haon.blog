@@ -5,6 +5,7 @@ tags:
   - 데이터베이스
   - 파티셔닝
   - 샤딩
+previewImage: mysql.png
 ---
 
 > 현 데이터베이스 파티셔닝과 샤딩 기법은 MySQL 8.0 을 기준으로 한다.
