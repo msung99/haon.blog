@@ -108,9 +108,9 @@ Entity(엔티티) 와 유즈케이스는 내부 계층에 위치한 가장 중�
 
 ## 참고
 
-[The Clean Code Blog : by Robert C. Martin (Uncle Bob)](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
-[기획자님들! 개발자가 아키텍처에 집착하는 이유, 쉽게 알려드립니다](https://www.youtube.com/watch?v=saxHxoUeeSw&t=349s)
-[주니어 개발자의 클린 아키텍처 맛보기](https://techblog.woowahan.com/2647/)
-[Clean Architecture는 모바일 개발을 어떻게 도와주는가? - (1) 경계선: 계층 나누기](https://medium.com/@justfaceit/clean-architecture%EB%8A%94-%EB%AA%A8%EB%B0%94%EC%9D%BC-%EA%B0%9C%EB%B0%9C%EC%9D%84-%EC%96%B4%EB%96%BB%EA%B2%8C-%EB%8F%84%EC%99%80%EC%A3%BC%EB%8A%94%EA%B0%80-1-%EA%B2%BD%EA%B3%84%EC%84%A0-%EA%B3%84%EC%B8%B5%EC%9D%84-%EC%A0%95%EC%9D%98%ED%95%B4%EC%A4%80%EB%8B%A4-b77496744616)
-[[클린 아키텍처] 구조 및 주요 개념](https://velog.io/@___pepper/%ED%81%B4%EB%A6%B0-%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98-%EA%B5%AC%EC%A1%B0-%EB%B0%8F-%EC%A3%BC%EC%9A%94-%EA%B0%9C%EB%85%90)
-[(번역) Clean Architecture on Frontend](https://velog.io/@bluejoyq/%EB%B2%88%EC%97%AD-Clean-Architecture-on-Frontend#architecture-and-design)
+- [The Clean Code Blog : by Robert C. Martin (Uncle Bob)](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
+- [기획자님들! 개발자가 아키텍처에 집착하는 이유, 쉽게 알려드립니다](https://www.youtube.com/watch?v=saxHxoUeeSw&t=349s)
+- [주니어 개발자의 클린 아키텍처 맛보기](https://techblog.woowahan.com/2647/)
+- [Clean Architecture는 모바일 개발을 어떻게 도와주는가? - (1) 경계선: 계층 나누기](https://medium.com/@justfaceit/clean-architecture%EB%8A%94-%EB%AA%A8%EB%B0%94%EC%9D%BC-%EA%B0%9C%EB%B0%9C%EC%9D%84-%EC%96%B4%EB%96%BB%EA%B2%8C-%EB%8F%84%EC%99%80%EC%A3%BC%EB%8A%94%EA%B0%80-1-%EA%B2%BD%EA%B3%84%EC%84%A0-%EA%B3%84%EC%B8%B5%EC%9D%84-%EC%A0%95%EC%9D%98%ED%95%B4%EC%A4%80%EB%8B%A4-b77496744616)
+- [[클린 아키텍처] 구조 및 주요 개념](https://velog.io/@___pepper/%ED%81%B4%EB%A6%B0-%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98-%EA%B5%AC%EC%A1%B0-%EB%B0%8F-%EC%A3%BC%EC%9A%94-%EA%B0%9C%EB%85%90)
+- [(번역) Clean Architecture on Frontend](https://velog.io/@bluejoyq/%EB%B2%88%EC%97%AD-Clean-Architecture-on-Frontend#architecture-and-design)
