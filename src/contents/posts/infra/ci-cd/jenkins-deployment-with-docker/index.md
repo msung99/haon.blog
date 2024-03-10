@@ -6,6 +6,7 @@ tags:
   - Docker
   - Jenkins
 previewImage: infra.png
+series: CI/CD 무중단배포 아키텍처 개선 과정
 ---
 
 ## 왜 Jenkins 를 사용하게 되었는가?

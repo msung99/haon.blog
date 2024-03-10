@@ -8,6 +8,7 @@ tags:
   - 롤링
   - 카나리
 previewImage: infra.png
+series: CI/CD 무중단배포 아키텍처 개선 과정
 ---
 
 ## 애플리케이션의 종료시점 : 서버 1대로 운영할때

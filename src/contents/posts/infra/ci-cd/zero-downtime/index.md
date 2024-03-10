@@ -6,6 +6,7 @@ tags:
   - Jenkins
   - Nginx
 previewImage: infra.png
+series: CI/CD 무중단배포 아키텍처 개선 과정
 ---
 
 ## 학습배경
