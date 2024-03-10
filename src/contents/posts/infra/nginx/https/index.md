@@ -6,6 +6,7 @@ tags:
   - HTTPS
   - CertBot
 previewImage: infra.png
+series: Nginx
 ---
 
 ## 시작에 앞서

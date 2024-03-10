@@ -7,6 +7,7 @@ tags:
   - Apache
   - Context Switching
 previewImage: infra.png
+series: Nginx
 ---
 
 ## 시작에 앞서 : 왜 글을 작성하는가?

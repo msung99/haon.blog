@@ -6,6 +6,7 @@ tags:
   - 로드밸런싱
   - HTTP
 previewImage: infra.png
+series: Nginx
 ---
 
 아래의 명령으로 현상태를 조회해봅시다. 참고로 저는 2Core CPU 를 사용하고 있습니다.

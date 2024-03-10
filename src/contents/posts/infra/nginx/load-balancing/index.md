@@ -5,6 +5,7 @@ tags:
   - Nginx
   - 로드밸런싱
 previewImage: infra.png
+series: Nginx
 ---
 
 ## 시작에 앞서
