@@ -5,6 +5,7 @@ tags:
   - 데이터베이스
   - 트랜잭션
   - ACID
+previewImage: database.png
 ---
 
 ## 트랜잭션(Transaction) 의 성질 : ACID
