@@ -1,6 +1,6 @@
 ---
 title: 자바의 Comparator 과 Comparable 인터페이스
-date: "2024-08-30"
+date: "2023-08-30"
 tags:
   - JAVA
   - Comparator
