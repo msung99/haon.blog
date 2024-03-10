@@ -6,6 +6,7 @@ tags:
   - pub/sub
   - 메시지브로커
 previewImage: redis.png
+series: Redis
 ---
 
 ## 글로벌 캐싱(Global Caching) 의 한계

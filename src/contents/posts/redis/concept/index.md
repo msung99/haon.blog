@@ -5,6 +5,7 @@ date: "2023-02-20"
 tags:
   - Redis
 previewImage: redis.png
+series: Redis
 ---
 
 ---

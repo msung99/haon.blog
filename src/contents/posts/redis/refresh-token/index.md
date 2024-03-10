@@ -5,6 +5,7 @@ tags:
   - Redis
   - 인증/인가
 previewImage: redis.png
+series: Redis
 ---
 
 ## 시작에 앞서

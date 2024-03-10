@@ -6,6 +6,7 @@ tags:
   - 분산락
   - 동시성
 previewImage: redis.png
+series: Redis
 ---
 
 ## 시작에 앞서

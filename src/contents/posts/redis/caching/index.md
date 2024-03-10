@@ -5,6 +5,7 @@ tags:
   - Redis
   - 캐싱
 previewImage: redis.png
+series: Redis
 ---
 
 ## RedisConfig
