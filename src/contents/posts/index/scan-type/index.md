@@ -5,6 +5,7 @@ tags:
   - 데이터베이스
   - 인덱스
   - MySQL
+previewImage: index.png
 ---
 
 [[MySQL 8.0] InnoDB 스토리지 엔진에서의 B+ Tree 인덱스를 통한 레코드 스캔 구조](https://velog.io/@msung99/MySQL-8.0-InnoDB-%EC%8A%A4%ED%86%A0%EB%A6%AC%EC%A7%80-%EC%97%94%EC%A7%84%EC%97%90%EC%84%9C%EC%9D%98-B-Tree-%EC%9D%B8%EB%8D%B1%EC%8A%A4%EB%A5%BC-%ED%86%B5%ED%95%9C-%EB%A0%88%EC%BD%94%EB%93%9C-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%8A%A4%EC%BA%94-%EC%B5%9C%EC%A0%81%ED%99%94-%EA%B5%AC%EC%A1%B0) 에셔 다루었듯이, MySQL 8.0 버전부터 InnoDB 엔진에 기반하여 가동되며 인덱스는 B+ Tree 로 구현되어 있습니다.

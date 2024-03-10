@@ -5,6 +5,7 @@ tags:
   - 데이터베이스
   - MySQL
   - 인덱스
+previewImage: index.png
 ---
 
 ## 카니널리티(Cardinality)

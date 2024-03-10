@@ -5,6 +5,7 @@ tags:
   - 데이터베이스
   - 인덱스
   - MySQL
+previewImage: index.png
 ---
 
 ## 인덱스 (Index)
