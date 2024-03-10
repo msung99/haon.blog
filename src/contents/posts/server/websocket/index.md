@@ -1,6 +1,6 @@
 ---
 title: 웹소켓과 HTTP Polling 에 대해 알아보자!
-date: "2022-01-14"
+date: "2023-01-14"
 tags:
   - HTTP
   - STOMP

@@ -1,6 +1,6 @@
 ---
 title: AWS EC2, Nginx 를 활용하여 배포하기
-date: "2022-01-03"
+date: "2023-01-03"
 tags:
   - 배포
   - Nginx

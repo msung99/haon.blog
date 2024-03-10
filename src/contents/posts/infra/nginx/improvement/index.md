@@ -1,6 +1,6 @@
 ---
 title: Nginx로 http event 를 영역을 튜닝하여 성능 개선하기
-date: "2022-01-29"
+date: "2023-01-29"
 tags:
   - Nginx
   - 로드밸런싱

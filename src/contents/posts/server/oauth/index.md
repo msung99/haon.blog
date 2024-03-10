@@ -1,6 +1,6 @@
 ---
 title: Oauth 소셜 로그인의 개념, 동작방식
-date: "2024-01-15"
+date: "2023-01-15"
 tags:
   - HTTP
   - OAuth

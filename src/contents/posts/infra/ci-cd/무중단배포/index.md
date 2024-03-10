@@ -1,6 +1,6 @@
 ---
 title: 무중단 배포 아키텍처의 다양한 배포전략 (Blue/Green, Rolling, Canary)
-date: "2022-01-26"
+date: "2023-01-26"
 tags:
   - 무중단배포
   - 로드밸런싱

@@ -1,6 +1,6 @@
 ---
 title: Nginx 의 keep-alive 를 조정하여 성능을 개선해보자!
-date: "2022-01-30"
+date: "2023-01-30"
 tags:
   - Nginx
   - handshake
@@ -223,11 +223,11 @@ upstream keepalive 를 적용하면, Nginx 를 중간에 웹서버로 배치하�
 
 ## 참고
 
-[Nginx Docs](http://nginx.org/en/docs/http/ngx_http_upstream_module.html#keepalive)
-[[server]keepalive와 timewait의 상관관계](https://velog.io/@kimjiwonpg98/serverkeepalive%EC%99%80-timewait%EC%9D%98-%EC%83%81%EA%B4%80%EA%B4%80%EA%B3%84)
-[2018 세미나 - Server에서 만남을 추구하면 안되는 걸까](https://devahea.github.io/2018/04/23/server-ec-97-90-ec-84-9c-eb-a7-8c-eb-82-a8-ec-9d-84-ec-b6-94-ea-b5-ac-ed-95-98-eb-a9-b4-ec-95-88-eb-90-98-eb-8a-94-ea-b1-b8-ea-b9-8c/)
-[nginx upstream 성능 최적화](https://brunch.co.kr/@alden/11)
-[[Web]서버와의 연결을 계속? Keep Alive!](https://kamang-it.tistory.com/599)
-[14. 서버를 어떻게 세팅해야 할까?](https://colinch4.github.io/2020-07-30/t-14/)
-[[네트워크] 3-way / 4-way Handshake 란?
-](https://bangu4.tistory.com/74)
+- [Nginx Docs](http://nginx.org/en/docs/http/ngx_http_upstream_module.html#keepalive)
+- [[server]keepalive와 timewait의 상관관계](https://velog.io/@kimjiwonpg98/serverkeepalive%EC%99%80-timewait%EC%9D%98-%EC%83%81%EA%B4%80%EA%B4%80%EA%B3%84)
+- [2018 세미나 - Server에서 만남을 추구하면 안되는 걸까](https://devahea.github.io/2018/04/23/server-ec-97-90-ec-84-9c-eb-a7-8c-eb-82-a8-ec-9d-84-ec-b6-94-ea-b5-ac-ed-95-98-eb-a9-b4-ec-95-88-eb-90-98-eb-8a-94-ea-b1-b8-ea-b9-8c/)
+- [nginx upstream 성능 최적화](https://brunch.co.kr/@alden/11)
+- [[Web]서버와의 연결을 계속? Keep Alive!](https://kamang-it.tistory.com/599)
+  [14. 서버를 어떻게 세팅해야 할까?](https://colinch4.github.io/2020-07-30/t-14/)
+- [[네트워크] 3-way / 4-way Handshake 란?
+  ](https://bangu4.tistory.com/74)

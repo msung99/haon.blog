@@ -1,6 +1,6 @@
 ---
 title: Jenkins 와 Docker를 활용한 배포 자동화 구축하기
-date: "2022-01-09"
+date: "2023-01-09"
 tags:
   - 배포
   - Docker
