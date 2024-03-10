@@ -12,9 +12,9 @@ module.exports = {
     title: `haon.blog`,
     description: `꾸준히 성장하는 과정속에서, 배움을 공유하고자 글을 작성하는 블로그입니다.`,
     author: `Haon`,
-    siteUrl: `https://gatsby-starter-haon.netlify.app`,
+    siteUrl: `https://haon.blog/`,
     keywords: [`server`, `backend`, `gatsby`], 
-    repo: 'msung99/Gatsby-Starter-Haon',
+    repo: 'msung99/haon.blog',
     socialLinks: { 
       github: 'https://github.com/msung99', 
       instagram: 'https://www.instagram.com/iminseong920/', 
