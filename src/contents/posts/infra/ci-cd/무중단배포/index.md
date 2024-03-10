@@ -7,6 +7,7 @@ tags:
   - 블루그린
   - 롤링
   - 카나리
+previewImage: infra.png
 ---
 
 ## 애플리케이션의 종료시점 : 서버 1대로 운영할때

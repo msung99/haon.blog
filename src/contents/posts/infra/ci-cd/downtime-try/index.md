@@ -6,6 +6,7 @@ tags:
   - CI/CD
   - Jenkins
   - Nginx
+previewImage: infra.png
 ---
 
 ## 학습배경

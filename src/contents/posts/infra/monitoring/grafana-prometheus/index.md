@@ -5,6 +5,7 @@ tags:
   - Grafana
   - Prometheus
   - 모니터링
+previewImage: infra.png
 ---
 
 > 서비스를 운영시, 항상 모니터링(경계)의 주시와 대응은 필수이다.

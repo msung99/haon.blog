@@ -5,6 +5,7 @@ tags:
   - Nginx
   - handshake
   - keep-alive
+previewImage: infra.png
 ---
 
 ## TCP 4-way Handshaking

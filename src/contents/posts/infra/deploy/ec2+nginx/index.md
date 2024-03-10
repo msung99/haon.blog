@@ -4,6 +4,7 @@ date: "2023-01-03"
 tags:
   - 배포
   - Nginx
+previewImage: infra.png
 ---
 
 ## 시작에 앞서

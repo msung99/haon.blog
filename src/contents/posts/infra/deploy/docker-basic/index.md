@@ -4,6 +4,7 @@ date: "2023-01-05"
 tags:
   - 배포
   - Docker
+previewImage: infra.png
 ---
 
 ## EC2 서버에 Docker 이미지가 올라가는 과정

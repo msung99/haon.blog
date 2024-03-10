@@ -6,6 +6,7 @@ tags:
   - CI/CD
   - Nginx
   - 블루그린
+previewImage: infra.png
 ---
 
 ## Blue/Green 배포

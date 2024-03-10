@@ -4,6 +4,7 @@ date: "2023-05-26"
 tags:
   - 무중단배포
   - graceful
+previewImage: infra.png
 ---
 
 ## 학습배경

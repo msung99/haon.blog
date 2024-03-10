@@ -4,6 +4,7 @@ date: "2023-01-27"
 tags:
   - Nginx
   - 로드밸런싱
+previewImage: infra.png
 ---
 
 ## 시작에 앞서

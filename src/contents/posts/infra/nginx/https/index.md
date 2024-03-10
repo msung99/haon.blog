@@ -5,6 +5,7 @@ tags:
   - Nginx
   - HTTPS
   - CertBot
+previewImage: infra.png
 ---
 
 ## 시작에 앞서

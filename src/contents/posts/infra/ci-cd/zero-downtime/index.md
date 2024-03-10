@@ -5,6 +5,7 @@ tags:
   - 무중단배포
   - Jenkins
   - Nginx
+previewImage: infra.png
 ---
 
 ## 학습배경

@@ -6,6 +6,7 @@ tags:
   - 로드밸런싱
   - Apache
   - Context Switching
+previewImage: infra.png
 ---
 
 ## 시작에 앞서 : 왜 글을 작성하는가?

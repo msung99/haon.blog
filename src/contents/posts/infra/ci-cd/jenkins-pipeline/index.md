@@ -4,6 +4,7 @@ date: "2023-05-16"
 tags:
   - Jenkins
   - CI/CD
+previewImage: infra.png
 ---
 
 ## 학습배경

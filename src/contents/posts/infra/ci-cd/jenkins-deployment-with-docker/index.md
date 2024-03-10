@@ -5,6 +5,7 @@ tags:
   - 배포
   - Docker
   - Jenkins
+previewImage: infra.png
 ---
 
 ## 왜 Jenkins 를 사용하게 되었는가?
