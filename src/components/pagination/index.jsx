@@ -36,6 +36,7 @@ const StyledFaArrowCircleRight = styled(FaArrowCircleRight)`
 
 const Ellipsis = styled.span`
   margin: 0 5px;
+  color: ${props => props.theme.main.text};
 `;
 
 const PostPagination = ({ totalPosts, postsPerPage, paginate, currentPage }) => {
