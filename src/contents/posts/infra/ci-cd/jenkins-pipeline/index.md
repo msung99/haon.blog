@@ -1,6 +1,6 @@
 ---
 title: Jenkins 의 파이프라인 기반 배포 자동화 환경 구축 구축하기
-date: "2023-01-09"
+date: "2023-05-16"
 tags:
   - Jenkins
   - CI/CD
@@ -388,7 +388,7 @@ FreeStyle Project 로만 CI/CD 자동화 환경을 구축하다가 직접 파이
 
 ## 참고
 
-[젠킨스 파이프라인을 이용한 배포 자동화](https://sihyung92.oopy.io/e5300d92-1a4e-40f4-b927-a93b2bbb17d2)
-[젠킨스를 사용한 달록팀의 지속적 배포 환경 구축기 (1) - 백엔드편](https://dallog.github.io/continuous-deploy-with-jenkins-1-backend/)
-[🏗️ Jenkins를 이용한 SSH 통신을 통해 AWS EC2 서버 배포 파이프라인 구성하기](https://leehosu.github.io/jenkins_ssh)
-[젠킨스 서버 SSH Key 생성 & 등록](https://parkhyeokjin.github.io/devops/2020/10/14/JekinsSshConfigure.html)
+- [젠킨스 파이프라인을 이용한 배포 자동화](https://sihyung92.oopy.io/e5300d92-1a4e-40f4-b927-a93b2bbb17d2)
+- [젠킨스를 사용한 달록팀의 지속적 배포 환경 구축기 (1) - 백엔드편](https://dallog.github.io/continuous-deploy-with-jenkins-1-backend/)
+- [🏗️ Jenkins를 이용한 SSH 통신을 통해 AWS EC2 서버 배포 파이프라인 구성하기](https://leehosu.github.io/jenkins_ssh)
+- [젠킨스 서버 SSH Key 생성 & 등록](https://parkhyeokjin.github.io/devops/2020/10/14/JekinsSshConfigure.html)
