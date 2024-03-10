@@ -4,6 +4,7 @@ date: "2024-01-13"
 tags:
   - HTTP
   - WAS
+previewImage: spring.png
 ---
 
 ## 학습 배경

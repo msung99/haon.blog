@@ -4,6 +4,7 @@ date: "2023-08-13"
 tags:
   - 스프링
   - ControllerAdvice
+previewImage: spring.png
 ---
 
 ## 도입배경

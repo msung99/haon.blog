@@ -5,6 +5,7 @@ tags:
   - MVC
   - JSP
   - 스프링
+previewImage: spring.png
 ---
 
 > 스터디를 진행하면서 알게된 학습 내용, 고민 사항을 정리했다.

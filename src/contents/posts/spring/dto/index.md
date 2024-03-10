@@ -4,6 +4,7 @@ date: "2023-09-13"
 tags:
   - JAVA
   - DTO
+previewImage: spring.png
 ---
 
 ## DTO
