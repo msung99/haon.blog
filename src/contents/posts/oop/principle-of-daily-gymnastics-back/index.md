@@ -4,6 +4,7 @@ date: "2023-09-30"
 tags:
   - JAVA
   - 객체지향
+previewImage: oop.png
 ---
 
 > [소트웍스 앤솔러지 객체치향 원칙 (Object Calisthenics) 의 전반부](https://velog.io/@msung99/소트웍스-앤솔러지-객체치향-생활체조-원칙-Object-Calisthenics-의-전반부) 를 먼저 참고하자.

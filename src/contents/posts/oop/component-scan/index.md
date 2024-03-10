@@ -6,6 +6,7 @@ tags:
   - 객체지향
   - OOP
   - ComponentScan
+previewImage: oop.png
 ---
 
 ## 시작에 앞서

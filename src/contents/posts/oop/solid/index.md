@@ -6,6 +6,7 @@ tags:
   - 객체지향
   - OOP
   - SOLID
+previewImage: oop.png
 ---
 
 ## 학습배경

@@ -6,6 +6,7 @@ tags:
   - 객체지향
   - OOP
   - 디자인패턴
+previewImage: oop.png
 ---
 
 ## 시작에 앞서

@@ -4,6 +4,7 @@ date: "2023-09-26"
 tags:
   - JAVA
   - 객체지향
+previewImage: oop.png
 ---
 
 ## 학습배경

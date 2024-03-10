@@ -7,6 +7,7 @@ tags:
   - OOP
   - DI
   - IoC
+previewImage: oop.png
 ---
 
 ## 시작에 앞서
