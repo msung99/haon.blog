@@ -5,6 +5,7 @@ tags:
   - HTTP
   - OAuth
   - 소셜 로그인
+previewImage: server.png
 ---
 
 ## 잘못된 접근방식 : 서비스에게 우리 소셜 계정정보를 맡겨볼까?

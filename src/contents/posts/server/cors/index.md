@@ -4,6 +4,7 @@ date: "2022-12-26"
 tags:
   - HTTP
   - CORS
+previewImage: server.png
 ---
 
 웹 개발을 하다보면 cors 라는 빨간 에러메시지를 접하게 되는 경우가 많습니다.

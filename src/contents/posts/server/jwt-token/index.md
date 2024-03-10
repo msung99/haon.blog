@@ -5,6 +5,7 @@ tags:
   - JWT
   - HTTP
   - 인증/인가
+previewImage: server.png
 ---
 
 JWT(Json Web Token) 을 통한 인증,인가 방식을 학습했다면, 바로 이어서 등장하는 이론이 바로 Refresh Token 과 Access Token 입니다. 이들은 무엇이며, 어떤 방식으로 클라이언트와 서버간에 전송이 이루어지며, 코드 구현은 어떻게 되는지 자세히 알아보겠습니다.

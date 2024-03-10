@@ -4,6 +4,7 @@ date: "2022-12-29"
 tags:
   - SQL Injection
   - HTTP
+previewImage: server.png
 ---
 
 ## 시작에 앞서

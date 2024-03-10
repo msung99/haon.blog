@@ -5,6 +5,7 @@ tags:
   - HTTP
   - 프록시
   - 로드밸런싱
+previewImage: server.png
 ---
 
 ---

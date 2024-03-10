@@ -4,6 +4,7 @@ date: "2023-02-27"
 tags:
   - HTTP
   - Restful
+previewImage: server.png
 ---
 
 ## 시작에 앞서 : 왜 학습을 진행하게 되었는가?

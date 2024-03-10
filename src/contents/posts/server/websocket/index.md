@@ -5,6 +5,7 @@ tags:
   - HTTP
   - STOMP
   - Web Socket
+previewImage: server.png
 ---
 
 ## 웹소켓(Web Socket) 이란
