@@ -6,7 +6,7 @@ tags:
   - JSP
   - 스프링
 previewImage: spring.png
-series: HTTP 웹서버 MVC 프레임워크 구현하기
+series: HTTP 웹서버 Spring MVC 프레임워크 구현하기
 ---
 
 > 스터디를 진행하면서 알게된 학습 내용, 고민 사항을 정리했다.

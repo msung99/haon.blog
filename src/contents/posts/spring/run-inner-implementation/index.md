@@ -5,7 +5,7 @@ tags:
   - 톰캣
   - DispatcherServlet
 previewImage: spring.png
-series: HTTP 웹서버 MVC 프레임워크 구현하기
+series: HTTP 웹서버 Spring MVC 프레임워크 구현하기
 ---
 
 지난 프론트 컨트롤러 구현에 이어서, 스프링부트 애플리케이션을 실행하기 까지의 전 과정에 대해 다루어보고자 한다. 또한 한 단계씩 거쳐가며 애플리케이션 로직을 리팩토링 해보겠다.

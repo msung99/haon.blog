@@ -5,7 +5,7 @@ tags:
   - 서블릿
   - 톰켓
 previewImage: spring.png
-series: HTTP 웹서버 MVC 프레임워크 구현하기
+series: HTTP 웹서버 Spring MVC 프레임워크 구현하기
 ---
 
 ## 서블릿 컨테이너

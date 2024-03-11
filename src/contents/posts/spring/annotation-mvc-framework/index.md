@@ -5,7 +5,7 @@ tags:
   - MVC
   - 스프링
 previewImage: spring.png
-series: HTTP 웹서버 MVC 프레임워크 구현하기
+series: HTTP 웹서버 Spring MVC 프레임워크 구현하기
 ---
 
 > 진행한 실습 코드 PR 은 [PR : 어노테이션 기반 MVC 프레임워크 구현하기](https://github.com/Durable-developers/10-jang/pull/1/files) 에서 확인 가능하다.
