@@ -1,6 +1,6 @@
 ---
 title: 협업을 위한 Git Commit Convension (커밋 컨벤션)
-date: "2022-11-1"
+date: "2022-11-01"
 tags:
   - git
 previewImage: index.png
