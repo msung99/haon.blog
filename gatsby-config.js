@@ -70,7 +70,7 @@ module.exports = {
         start_url: `/`,
         background_color: `#663399`,
         display: `minimal-ui`,
-        icon: `static/og-image.png`,
+        icon: `static/favicon.png`,
       },
     },
     `gatsby-plugin-styled-components`,
