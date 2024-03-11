@@ -75,5 +75,14 @@ module.exports = {
     },
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-react-helmet`,
+    'gatsby-plugin-sitemap',
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: "https://haon.blog",
+        sitemap: "https://haon.blog/sitemap.xml",
+        policy: [{userAgent: '*', allow: '/'}]
+      }
+    }
   ],
 }
