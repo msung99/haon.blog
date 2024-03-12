@@ -11,13 +11,14 @@ export default ({ data, location }) => {
   const post = data.markdownRemark;
   const { title, date, description } = post.frontmatter;
   const author = data.site.siteMetadata.author;
+  const exercpt = post.excerpt;
   const toc = post.tableOfContents;
   const tags = post.frontmatter.tags || [];
   const series = post.frontmatter.series;
 
   return (
     <PageLayout>
-      <Seo title={title} description={description}/>
+      <Seo title={title} description={description || exercpt}/>
       <Post>
         <Post.Header
           title={title}
@@ -33,8 +34,6 @@ export default ({ data, location }) => {
     </PageLayout>
   );
 };
-
-
 
 export const pageQuery = graphql`
   query BlogPostBySlug(
