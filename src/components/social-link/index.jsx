@@ -11,6 +11,14 @@ const EmojiLink = styled.span`
   color: ${props => props.theme.emoji};
 `;
 
+const RssLink = styled(EmojiLink)`
+  color: ${props => props.theme.emoji};
+`;
+
+const StyledRssIcon = styled(BsFillRssFill)`
+  color: ${props => props.theme.emoji};
+`;
+
 const socialEmojis = {
   github: <FaGithub className="icon" size="28" />,
   instagram: <FaInstagram className="icon" size="28" />,
@@ -30,11 +38,11 @@ const StyledSocialLinks = styled.div`
 const SocialLinks = ({ socialLinks }) => {
   return (
     <StyledSocialLinks>
-      <EmojiLink>
-        <Link to ="/rss.xml">
-            <BsFillRssFill className="icon" size="28" color="white"/>
+      <RssLink>
+        <Link to="/rss.xml">
+          <StyledRssIcon className="icon" size="28" />
         </Link>
-      </EmojiLink>
+      </RssLink>
       {Object.entries(socialLinks).map(([key, link]) => (
         <Link key={key} to={link}>
           <EmojiLink>
