@@ -7,6 +7,7 @@ import Profile from "../components/profile"
 import SimpleTagList from "../components/simple-taglist"
 import styled from "styled-components"
 import Seo from "../components/seo"
+import { siteMetadata } from "../../gatsby-config.js";
 
 const PostListTemplate = ({ data, location }) => {
   const description = data.site.siteMetadata.description
@@ -19,6 +20,8 @@ const PostListTemplate = ({ data, location }) => {
   const filteredPosts = posts.filter(post => !post.frontmatter.isPrivate);
   const tags = data.allMarkdownRemark.group
 
+  const socialLinks = siteMetadata.socialLinks;
+
   // 공개인 포스트의 태그와 비공개인 포스트의 태그를 구분하여 개수 계산
   const publicTags = data.allMarkdownRemark.group
     .filter(tag => tag.nodes.some(post => !post.frontmatter.isPrivate))
@@ -30,7 +33,8 @@ const PostListTemplate = ({ data, location }) => {
   return (
     <PageLayout>
       <Seo title={title} description={description}/>
-      <Profile author={author} description={description} siteUrl={siteUrl} keywords={keywords}/>
+      <Profile author={author} description={description} siteUrl={siteUrl} keywords={keywords} socialLinks={socialLinks}/>
+      <Line/>
       <SimpleTagList tags={publicTags} allCount={filteredTagsCount}/>
       <PostCount>All Posts ({filteredPosts.length})</PostCount>
       <PostList posts={posts}></PostList>
@@ -45,6 +49,11 @@ const PostCount = styled.div`
   margin-left: 10px;
   padding-top: 30px;
 `
+
+const Line = styled.div`
+  margin-bottom: 10px;
+`
+
 
 export default PostListTemplate
 
