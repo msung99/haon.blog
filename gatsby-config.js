@@ -138,5 +138,12 @@ module.exports = {
         policy: [{userAgent: '*', allow: '/'}]
       }
     },
+    {
+      resolve: `gatsby-plugin-canonical-urls`,
+      options: {
+        siteUrl: `https://haon.blog/`,
+        stripQueryString: true,
+      },
+    },
   ],  
 }
