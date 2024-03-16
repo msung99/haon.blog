@@ -129,12 +129,41 @@ module.exports = {
     },
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-advanced-sitemap`,
+    {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        query: `
+          {
+            allNotion {
+              edges {
+                node {
+                  id
+                  title
+                }
+              }
+            }
+          }
+        `,
+        resolveSiteUrl: () => siteUrl,
+        resolvePages: ({ allNotion: { edges: allPages } }) => {
+          return allPages.map(edge => {
+            return { ...edge.node, path: edge.node.title };
+          });
+        },
+        serializer: props => {
+          return {
+            url: `${props.title}`,
+            changefreq: 'daily',
+            priority: 0.7,
+          };
+        },
+      },
+    },    
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
         host: "https://haon.blog",
-        sitemap: "https://haon.blog/sitemap.xml",
+        sitemap: "https://haon.blog/sitemap-index.xml",
         policy: [{userAgent: '*', allow: '/'}]
       }
     },
