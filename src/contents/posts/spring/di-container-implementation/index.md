@@ -3,6 +3,7 @@ title: 어노테이션 기반 DI 컨테이너 프레임워크 구현하기
 date: "2024-03-18"
 tags:
   - 스프링
+  - DI
 previewImage: spring.png
 ---
 
