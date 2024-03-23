@@ -16,7 +16,7 @@ module.exports = {
     keywords: [`server`, `backend`, `gatsby`], 
     repo: 'msung99/haon.blog',
     socialLinks: { 
-      github: 'https://github.com/msung99/Gatsby-Starter-Haon', 
+      github: 'https://github.com/msung99', 
       instagram: 'https://www.instagram.com/iminseong920/', 
       facebook: 'https://www.facebook.com/', 
       linkedin: 'https://www.linkedin.com/',
