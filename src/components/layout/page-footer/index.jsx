@@ -5,10 +5,11 @@ import styled from "styled-components";
 const PageFooter = () => {
   return (
     <PageFooterWrapper>
-      <Text>@2024 Lee Min Sung,</Text>
+      <Text>@2024 Lee Min Sung, powered by</Text>
       <StyledLink to="https://github.com/msung99/Gatsby-Starter-Haon.git">
         Gatsby-Starter-Haon Theme
       </StyledLink>
+      <Text> (Open Source)</Text>
     </PageFooterWrapper>
   );
 };
@@ -22,9 +23,10 @@ const StyledLink = styled(Link)`
 `;
 
 const PageFooterWrapper = styled.footer`
-  margin-top: 20px;
+  margin-top: 120px;
+  padding-bottom: 50px;
   text-align: center;
-  font-size: 14px;
+  font-size: 14.5px;
   color: gray;
   height: 30px;
   position: relative;
