@@ -175,7 +175,7 @@ public ResponseEntity<MemberResponse> about(@AuthPrincipal LoginMember loginMemb
 
 ### Interceptor
 
-![alt text](image-3.png)
+![](./image-3.png)
 
 스프링 인터셉터는 `서블릿 필터(servlet filter)` 와 같이 웹과 관련한 공통 관심 사항을 효과적으로 해결할 수 있는 기술이다. 이 점에서 AOP 와 같이 횡단 관심사를 깔끔하게 처리할 수 있다는 특징을 지닌다.
 
