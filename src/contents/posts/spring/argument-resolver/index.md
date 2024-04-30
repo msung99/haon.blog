@@ -175,6 +175,8 @@ public ResponseEntity<MemberResponse> about(@AuthPrincipal LoginMember loginMemb
 
 ### Interceptor
 
+![alt text](image-3.png)
+
 스프링 인터셉터는 `서블릿 필터(servlet filter)` 와 같이 웹과 관련한 공통 관심 사항을 효과적으로 해결할 수 있는 기술이다. 이 점에서 AOP 와 같이 횡단 관심사를 깔끔하게 처리할 수 있다는 특징을 지닌다.
 
 그럼에도 서블릿 필터와 스프링 인터셉터는 다소 다른 개념이다. `서블릿 필터` 는 서블릿이 제공하는 기술이라면, 스프링 인터셉터는 `스프링 MVC` 가 제공하는 기술이다. **스프링 인터셉터는 `DispatcherServlet` 와ㅈ 컨트롤러 이 둘 사이에서 컨트롤러 호출 직전에 호출된다는 특징을 지닌다.** 즉, 클라리언트가 스프링부트 서버의 한 API 를 호출한다면 **HTTP 요청 -> WAS -> Filter -> DispatcherServlet -> 스프링 인터셉터 -> 컨트롤러** 순으로 요청이 넘어가게 된다.
