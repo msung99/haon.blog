@@ -107,7 +107,7 @@ const PostCard = styled.div`
   transition: opacity 1s ease, background 1s ease;
 
   &:hover {
-    opacity: 0.8;
+    opacity: 0.7;
     background: ${props => props.theme.postlist.hoverBackground}; 
   }
 `;

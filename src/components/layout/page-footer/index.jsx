@@ -5,11 +5,11 @@ import styled from "styled-components";
 const PageFooter = () => {
   return (
     <PageFooterWrapper>
-      <Text>@2024 Lee Min Sung, powered by</Text>
+      <Text>✍️ @2024 Lee Min Sung, powered by</Text>
       <StyledLink to="https://github.com/msung99/Gatsby-Starter-Haon.git">
         Gatsby-Starter-Haon Theme
       </StyledLink>
-      <Text> (Open Source)</Text>
+      <Text> (Open Source) ✍️</Text>
     </PageFooterWrapper>
   );
 };
