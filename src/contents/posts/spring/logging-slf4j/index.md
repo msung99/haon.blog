@@ -4,7 +4,6 @@ date: "2024-05-01"
 tags:
   - 스프링
   - Slf4j
-  - 로깅
 previewImage: spring.png
 ---
 
