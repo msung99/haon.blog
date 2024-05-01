@@ -4,7 +4,7 @@ date: "2024-05-01"
 tags:
   - 스프링
   - Slf4j
-  - MDC
+  - 로깅
 previewImage: spring.png
 ---
 
