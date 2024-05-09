@@ -25,7 +25,7 @@ const StyledLink = styled(Link)`
 
 const PageFooterWrapper = styled.footer`
   margin-top: 120px;
-  padding-bottom: 40px;
+  padding-bottom: 60px;
   text-align: center;
   font-size: 14px;
   color: gray;
