@@ -131,7 +131,7 @@ const PostTitle = styled.h1`
   margin-bottom: 15px;
   word-break: break-all;
   font-weight: 800;
-  line-height: 110%;
+  line-height: 118%;
   transition: color 1s ease; 
 `;
 
