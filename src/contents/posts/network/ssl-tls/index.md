@@ -1,5 +1,5 @@
 ---
-title: HTTPS 의 SSL 기반 암호화 통신 과정은 어떻게 이루어질까?
+title: HTTPS 의 SSL 기반 암호화, 복호화 통신 과정은 어떻게 이루어질까?
 date: "2024-05-12"
 tags:
   - 네트워크
@@ -94,3 +94,4 @@ SSL 은 2가지 방식을 적절히 섞어 활용한다고 했다. 더 정확히
 
 - https://www.youtube.com/watch?v=wPdH7lJ8jf0&t=623s
 - https://nuritech.tistory.com/25
+- https://wayhome25.github.io/cs/2018/03/11/ssl-https/
