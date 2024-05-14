@@ -4,6 +4,7 @@ date: "2024-03-13"
 tags:
   - 회고
 previewImage: book.png
+series: 20년도 개발자 성장 관련 회고
 ---
 
 오늘 할 일도 다 끝났고, 꼭 적어보고 싶었던 내용을 적어본다.
