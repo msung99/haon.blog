@@ -108,10 +108,10 @@ export const HtmlWrapper = styled.div`
   }
 
   section > p {
-    font-size: 16px;
+    font-size: 15.5px;
     line-height: 180%; 
     color: ${props => props.theme.post.content.text};
-    margin-bottom: 35px;
+    margin-bottom: 20px;
     word-break: break-all;
 
     span {
