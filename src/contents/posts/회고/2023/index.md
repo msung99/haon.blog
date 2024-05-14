@@ -167,7 +167,7 @@ Redis 의 분산락 외에도, 이 토픽을 내 머릿속에 온전히 채화�
 
 ---
 
-## 감사하게도, 나에게 컨텍을 주신 분들
+## 감사하게도, 나에게 컨텍을 주신 여러 회사들
 
 ![](https://velog.velcdn.com/images/msung99/post/a7ab17ee-379e-4ccf-8562-002de0563566/image.png)
 
