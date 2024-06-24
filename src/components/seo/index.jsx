@@ -48,10 +48,6 @@ const Seo = ({ title, description}) => {
           property: "og:type",
           content: "website",
         },
-        {
-          name: "google-site-verification",
-          content: "zGVTKgy6KKKDMskkqG4pdvB_y0WeQ_492qdHWk2FF7E",
-        },
       ]}
     />
   )

@@ -107,7 +107,7 @@ const PostCard = styled.div`
   transition: opacity 1s ease, background 1s ease;
 
   &:hover {
-    opacity: 0.7;
+    opacity: 0.8;
     background: ${props => props.theme.postlist.hoverBackground}; 
   }
 `;
@@ -131,7 +131,7 @@ const PostTitle = styled.h1`
   margin-bottom: 15px;
   word-break: break-all;
   font-weight: 800;
-  line-height: 118%;
+  line-height: 110%;
   transition: color 1s ease; 
 `;
 

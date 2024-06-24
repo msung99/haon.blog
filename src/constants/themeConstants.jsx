@@ -47,6 +47,10 @@ export const LIGHT_THEME_COLORS = {
       hover: 'black',
     },
     content: {
+      highlight: {
+        bg: '#F7F9FA',
+        text: '#f7f6f2',
+      },
       text: 'black',
       blockquote: {
         body: '#f7f6f2',
@@ -55,7 +59,7 @@ export const LIGHT_THEME_COLORS = {
       },
       hr: '#eef2f3',
       language: {
-        bg: '#f1f0eb',
+        bg: '#f7f6f2',
         text: 'black',
       },
       a: 'dimgray',
@@ -87,7 +91,6 @@ export const LIGHT_THEME_COLORS = {
 };
 
 export const DARK_THEME_COLORS = {
-
   main: {
     background: '#1a1a1a',
     text: 'white',
@@ -134,6 +137,10 @@ export const DARK_THEME_COLORS = {
       hover: '#e8e8e8',
     },
     content: {
+      highlight: {
+        bg: '#202020',
+        text: '#2d2d2d',
+      },
       text: '#e8e8e8',
       blockquote: {
         body: '#212121',
@@ -142,7 +149,7 @@ export const DARK_THEME_COLORS = {
       },
       hr: '#282828',
       language: {
-        bg: '#3C3A39',
+        bg: '#202020',
         text: '#e6e6e6',
       },
       a: '#c9c9ca',

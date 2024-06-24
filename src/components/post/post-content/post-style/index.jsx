@@ -108,10 +108,10 @@ export const HtmlWrapper = styled.div`
   }
 
   section > p {
-    font-size: 15.5px;
+    font-size: 16px;
     line-height: 180%; 
     color: ${props => props.theme.post.content.text};
-    margin-bottom: 20px;
+    margin-bottom: 35px;
     word-break: break-all;
 
     span {
@@ -179,26 +179,22 @@ export const HtmlWrapper = styled.div`
     margin-bottom: 10px;
   }
 
-  .gatsby-highlight {
-    font-size: 13.5px;
-    margin-bottom: 50px;
-    word-break: break-all;
-
-    .language-text {
-      background-color: ${props => props.theme.post.content.blockquote.body};
-      font-size: 13.5px;
-      color: ${props => props.theme.post.content.blockquote.text};
-    }
-  }
-  
-  .language-text {
-    background-color: ${props => props.theme.post.content.language.bg};
-    padding: -10px;
+  code.language-text {
+    background-color: ${props => props.theme.post.content.highlight.text};
+    color: ${props => props.theme.main.text};
     font-size: 14.5px;
+  }
+
+  .gatsby-highlight > pre > .language-text {
+    background-color: ${props => props.theme.post.content.highlight.bg};
+    color: blue;
+    padding: -10px;
+    font-size: 13.5px;
     color: ${props => props.theme.post.content.language.text};
-    width: 100%;
-    height: 100%;
     word-break: break-all;
   }
 }
 `
+
+
+

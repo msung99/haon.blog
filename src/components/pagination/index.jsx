@@ -1,4 +1,3 @@
-// post-pagination.jsx
 import React from "react";
 import styled from "styled-components";
 import { FaArrowCircleLeft, FaArrowCircleRight } from "react-icons/fa";
