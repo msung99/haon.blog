@@ -14,7 +14,7 @@ export const HtmlWrapper = styled.div`
     margin-bottom: 40px;
     word-break: break-all;
     font-weight: 700;
-    line-height: 130%;
+    line-height: 80%;
   }
 
   section > h2 {
@@ -24,7 +24,7 @@ export const HtmlWrapper = styled.div`
     margin-bottom: 40px;
     word-break: break-all;
     font-weight: 700;
-    line-height: 130%;
+    line-height: 80%;
   }
 
   section > h3 {
@@ -34,7 +34,7 @@ export const HtmlWrapper = styled.div`
     margin-bottom: 40px;
     word-break: break-all;
     font-weight: 700;
-    line-height: 130%;
+    line-height: 80%;
   }
 
   section > h4 {
@@ -44,7 +44,7 @@ export const HtmlWrapper = styled.div`
     margin-bottom: 40px;
     word-break: break-all;
     font-weight: 700;
-    line-height: 110%;
+    line-height: 80%;
   }
 
   section > h5 {
@@ -109,9 +109,9 @@ export const HtmlWrapper = styled.div`
 
   section > p {
     font-size: 16px;
-    line-height: 180%; 
+    line-height: 170%; 
     color: ${props => props.theme.post.content.text};
-    margin-bottom: 35px;
+    margin-bottom: 20px;
     word-break: break-all;
 
     span {

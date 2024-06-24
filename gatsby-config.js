@@ -13,7 +13,7 @@ module.exports = {
     description: `꾸준히, 배움에 대한 생각을 글로 정제하기 위한 블로그입니다.`,
     author: `Haon`,
     siteUrl: `https://haon.blog/`,
-    keywords: [`backend`, `gatsby starter`], 
+    keywords: [`gatsby starter haon`, `kakaotech`, `inhaUniv`], 
     repo: 'msung99/haon.blog',
     socialLinks: { 
       github: 'https://github.com/msung99', 
