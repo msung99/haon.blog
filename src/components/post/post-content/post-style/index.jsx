@@ -14,7 +14,7 @@ export const HtmlWrapper = styled.div`
     margin-bottom: 40px;
     word-break: break-all;
     font-weight: 700;
-    line-height: 80%;
+    line-height: 120%;
   }
 
   section > h2 {
@@ -24,7 +24,7 @@ export const HtmlWrapper = styled.div`
     margin-bottom: 40px;
     word-break: break-all;
     font-weight: 700;
-    line-height: 80%;
+    line-height: 120%;
   }
 
   section > h3 {
@@ -34,7 +34,7 @@ export const HtmlWrapper = styled.div`
     margin-bottom: 40px;
     word-break: break-all;
     font-weight: 700;
-    line-height: 80%;
+    line-height: 110%;
   }
 
   section > h4 {
@@ -44,7 +44,7 @@ export const HtmlWrapper = styled.div`
     margin-bottom: 40px;
     word-break: break-all;
     font-weight: 700;
-    line-height: 80%;
+    line-height: 110%;
   }
 
   section > h5 {
