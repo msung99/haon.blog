@@ -3,7 +3,7 @@ title: 생성자 대신 정적 팩터리 메서드 사용을 고려하라
 date: "2023-08-29"
 tags:
   - JAVA
-previewImage: design-pattern.png
+previewImage: strategy-pattern.png
 series: JAVA, 객체지향, 디자인패턴 학습기록
 ---
 
