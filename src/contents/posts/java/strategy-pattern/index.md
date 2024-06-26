@@ -4,7 +4,7 @@ date: "2023-11-06"
 tags:
   - JAVA
   - 디자인패턴
-previewImage: design-pattern.png
+previewImage: strategy-pattern.png
 series: JAVA, 객체지향, 디자인패턴 학습기록
 ---
 
