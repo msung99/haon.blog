@@ -6,7 +6,6 @@ tags:
   - 네임드락
   - 동시성
 previewImage: mysql.png
-series: MySQL InnoDB 아키텍처 개선 과정
 ---
 
 > 동시성 이슈를 제어하는 방법은 정말 다양하다. 하지만 해당 상황에 적절히 대응하지 못한다면, 성능 저하의 주범이 될 수 있다.

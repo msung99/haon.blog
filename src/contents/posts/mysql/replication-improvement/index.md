@@ -8,7 +8,6 @@ tags:
   - Master/Slave
   - 스프링
 previewImage: mysql.png
-series: MySQL InnoDB 아키텍처 개선 과정
 ---
 
 > 데이터베이스 레플리케이션 관련 이론적인 내용은 [MySQL 의 Master/Slave 레플리케이션(Replication) 아키텍처와 토폴로지 구성 방식](https://velog.io/@msung99/MySQL-%EC%9D%98-MasterSlave-%EB%A0%88%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98Replication-%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%99%80-%ED%86%A0%ED%8F%B4%EB%A1%9C%EC%A7%80-%EA%B5%AC%EC%84%B1-%EB%B0%A9%EC%8B%9D) 을 참고하자.

@@ -6,7 +6,6 @@ tags:
   - MySQL
   - 인덱스
 previewImage: index.png
-series: MySQL 8.0 인덱스(index) 학습기록
 ---
 
 > 현 포스팅은 MySQL 8.0 InnoDB 스토리지 엔진을 기반으로 작성했습니다.
