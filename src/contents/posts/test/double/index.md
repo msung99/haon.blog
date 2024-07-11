@@ -64,6 +64,8 @@ public DummyBookRepo implements BookRepository {
 
 ### Fake
 
+![alt text](image-2.png)
+
 페이크 객체는 DOC 을 흉내내는 아주 간단히 구현된 객체로, 더미 객체와 달리 실제로 동작하고 사용된다. 하지만, 매우 단순한 방식으로 간단하게 구현하기 때문에 실제 프로덕션 코드에선 사용하기에 적합하지 않다.
 
 페이크 객체로 DOC 을 흉내내는 가장 대표적인 예가 바로 데이터베이스다. 실제로는 복잡한 RDBMS 와 실제로 데이터베이스 통신을 하는 대신에, 실제 DB 를 흉내내는 인메모리 DB 로 대신하는 것이다. 아래와 Dao 코드를 보자. 
@@ -141,12 +143,13 @@ public class UserService {
 }
 ~~~
 
+바로 아래에서 후술할 Mockito 프레임워크의 `verify()` 가 Spy 와 동일한 역할을 한다.
 
 ### Mock
 
 모의 객체는 **호출에 대한 기대를 명세할 수 있고, 그 명세 내용에 따라 동작하도록 프로그래밍된 객체다.** Stub 에 비해, 특정 응답에 대한 구체적인 기댓값을 설정할 수 있다. 보통 Mock 객체는 개발자가 직접 코드를 작성하여 기댓값을 작성할 수도 있지만, Mocking 프레임워크를 사용하여  편리하게 동작 및 기댓값을 단언할 수 있다. 자바 진영에서 사용되는 대표 프레임워크는 `Mockito` 이다.
 
-또한 위 테스트 더블 객체 종류 모두에게 호환되는 객체 종류이다. 즉, Dummy, Stub, Spy 처럼 동작할 수 있는 훌륭한 객체이다. 
+또한 위 테스트 더블 객체 종류 모두에게 호환되는 객체 종류이다. 즉, Mocking 한 객체는 Dummy, Stub, Spy 처럼 동작할 수 있는 호환성이 좋은 훌륭한 객체이다. 
 
 아래 코드를 보면 Mockito 라이브러리에서 제공하는 `when` 절을 활용하어 명세를 하였다. Mocking 된 userRepository 는 when 절을 활용하여 명세한 내용에 따라 동작하게 된다. 
 
@@ -169,9 +172,15 @@ public class UserServiceTest {
 
 지금까지 테스트를 진행하면서 Mockito 라이브러리를 자주 사용해왔기 떄문에, 더 자세한 내용은 여기서 학습하지 않도록 한다.
 
+---
+
+## 더 학습해볼 키워드
+
+- Mockito 프레임워크 어노테이션 (@Spy, @SpyBean, @Mock, @MockBean)
 
 ## 참고
 
 - Effective Software Testing (Mauricio Aniche)
+- https://cobbybb.tistory.com/16#3.2%20%EC%84%B8%20%EB%B2%88%EC%A7%B8%20Refactoring%20%3A%20%40Mock%2C%20%40InjectMocks%EC%9D%98%20%EC%A1%B0%ED%95%A9-1
 - https://tecoble.techcourse.co.kr/post/2020-09-19-what-is-test-double/
 - https://hudi.blog/test-double/
