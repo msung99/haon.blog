@@ -1,5 +1,5 @@
 ---
-title: 스프링의 계층형 아키텍처 (Layered Architecture)
+title: 스프링의 독립적인 계층화 아키텍처 (Layered Architecture)
 date: "2024-07-13"
 tags:
   - Spring
