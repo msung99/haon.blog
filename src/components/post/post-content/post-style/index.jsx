@@ -179,6 +179,10 @@ export const HtmlWrapper = styled.div`
     margin-bottom: 10px;
   }
 
+  ::marker {
+    font-size: 10px;
+  }
+
   code.language-text {
     background-color: ${props => props.theme.post.content.highlight.text};
     color: ${props => props.theme.main.text};
