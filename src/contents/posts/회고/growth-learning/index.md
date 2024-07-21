@@ -1,6 +1,6 @@
 ---
-title: Gatsby Starter Haon 작가 소개
-date: "2022-01-01"
+title: 프로그래밍을 공부하며 능동적인 성장을 위한 학습방법
+date: "2024-06-27"
 tags:
   - 공부법
   - 회고
