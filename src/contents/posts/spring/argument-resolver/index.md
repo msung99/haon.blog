@@ -1,5 +1,5 @@
 ---
-title: 스프링에서 Argument Resolver 기반 커스텀 어노테이션으로 인증 책임을 분리해보자!
+title: 스프링에서 Argument Resolver 기반 커스텀 어노테이션으로 인증 책임을 분리해보자! (vs Interceptor)
 date: "2024-07-28"
 tags:
   - 스프링
