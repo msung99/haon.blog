@@ -1,6 +1,6 @@
 ---
 title: DTO(Data Transfer Object) 의 올바른 사용 방식에 대해
-date: "2024-07-17"
+date: "2024-07-22"
 tags:
   - Java
   - DTO

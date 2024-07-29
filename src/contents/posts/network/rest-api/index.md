@@ -1,6 +1,6 @@
 ---
 title: REST(Representational State Transfer) API 설계원칙
-date: "2024-07-17"
+date: "2024-07-19"
 tags:
   - HTTP
 previewImage: book.png

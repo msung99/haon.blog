@@ -1,6 +1,6 @@
 ---
 title: Spring IoC Container 과 스프링 빈(Spring Bean)
-date: "2024-07-15"
+date: "2024-07-16"
 tags:
   - Spring
 previewImage: spring.png

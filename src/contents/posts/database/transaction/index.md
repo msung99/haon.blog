@@ -1,6 +1,6 @@
 ---
 title: 데이터베이스 트랜잭션(Transaction)
-date: "2024-07-16"
+date: "2024-07-18"
 tags:
   - Spring
 previewImage: database.png

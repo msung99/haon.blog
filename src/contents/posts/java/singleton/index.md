@@ -1,6 +1,6 @@
 ---
 title: 싱글톤(SingleTon) 패턴 구현방법 6가지, Bill Pugh Solution
-date: "2024-07-18"
+date: "2024-07-24"
 tags:
   - Java
   - 디자인패턴
