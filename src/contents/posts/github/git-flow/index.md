@@ -3,7 +3,7 @@ title: Git 브랜치 전략 (Git Flow, Github Flow)
 date: "2024-08-02"
 tags:
   - Git
-previewImage: server.png
+previewImage: github.png
 ---
 
 ## 브랜치는 왜 필요한가?
