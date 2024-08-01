@@ -1,6 +1,6 @@
 ---
 title: 제 2장. 간단한 프로토콜 HTTP
-date: "2024-08-01"
+date: "2024-07-31"
 tags:
   - HTTP
 series: 그림으로 배우는 HTTP & Network Basic
