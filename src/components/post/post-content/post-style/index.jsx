@@ -133,8 +133,8 @@ export const HtmlWrapper = styled.div`
   blockquote {
     padding-left: 18px;
     padding-right: 20px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 25px;
+    padding-bottom: 25px;
     margin-bottom: 50px; 
     margin-top: 50px;
     background-color: ${props => props.theme.post.content.blockquote.body};
