@@ -8,7 +8,7 @@ tags:
 previewImage: infra.png
 ---
 
-> 현재 포스트는 [harmony 팀 기술 블로그]((https://kakaotech-harmony.netlify.app/backend/oauth/))에 게시된 글 입니다. 
+> 💡 현재 포스트는 [harmony 팀 기술 블로그](https://kakaotech-harmony.netlify.app/backend/oauth) 에 게시된 글 입니다. 
 
 ## OAuth 와 소셜 로그인
 
