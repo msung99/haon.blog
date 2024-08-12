@@ -7,6 +7,8 @@ tags:
 previewImage: infra.png
 ---
 
+> 💡 본 포스팅은  [CS 기술 면접 스터디](https://github.com/kakaotech-25/cs-plant-interview)에도 작성된 글 입니다.
+
 ## 데드락(DeadLock)
 
 ![alt text](image.png)
