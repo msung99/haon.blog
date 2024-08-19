@@ -8,6 +8,8 @@ tags:
 previewImage: infra.png
 ---
 
+> 💡 본 포스팅은 [CS 기술 면접 스터디](https://github.com/kakaotech-25/cs-plant-interview.git)에도 작성된 글 입니다.
+
 겉보기에 프로세스들은 특별한 내부 동작없이 단순하게 메모리내에서 연속적으로 배치되는 구조처럼 보일 수 있다. 하지만, 프로세스는 연속적으로 메모리에 배치될 때 스와핑(Swapping), 단편화(Fragmentation) 이라는 고려사항들을 신경쓰며 배치된다. 
 
 ## 스와핑(Swapping)
