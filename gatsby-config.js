@@ -18,9 +18,6 @@ module.exports = {
     socialLinks: { 
       github: 'https://github.com/msung99', 
       instagram: 'https://www.instagram.com/iminseong920/', 
-      facebook: 'https://www.facebook.com/', 
-      linkedin: 'https://www.linkedin.com/',
-      velog: 'https://velog.io/@msung99',
       email: 'msung6924@naver.com',
   },
   },

@@ -3,6 +3,7 @@ import styled from "styled-components"
 import TableOfContents from "../../toc";
 import { ContentWrapper, HtmlWrapper } from "./post-style";
 import CodeHighLight from "./code-highlight";
+import { siteMetadata } from "../../../../gatsby-config";
 
 const PostContent = ({html, toc}) => {
   return (
@@ -12,6 +13,7 @@ const PostContent = ({html, toc}) => {
       <HtmlWrapper>
         <section dangerouslySetInnerHTML={{ __html: html}} itemProp="postContent" />
       </HtmlWrapper>
+
     </ContentWrapper>
   )
 }
