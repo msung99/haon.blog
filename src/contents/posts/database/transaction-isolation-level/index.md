@@ -6,9 +6,12 @@ tags:
 previewImage: database.png
 ---
 
+> 💡 본 포스팅은 [CS 기술 면접 스터디](https://github.com/kakaotech-25/cs-plant-interview)에도 작성된 글 입니다.
+
+
 ## 트랜잭션 ACID
 
-> 💡 트랜잭션 ACID 에 관한 이론은 [데이터베이스 트랜잭션(Transaction)](http://localhost:8000/database/transaction/) 을 참고하자.
+> 트랜잭션 ACID 에 관한 이론은 [데이터베이스 트랜잭션(Transaction)](http://localhost:8000/database/transaction/) 을 참고하자.
 
 자바 기반의 스프링부트 웹 애플리케이션은 기본적으로 요청에 대해 트랜잭션 단위의 안전한 처리를 요구한다. 트랜잭션은 [ACID](https://haon.blog/database/transaction/) 라는 성질을 지니고 있다. 원자성(Atomic), 일관성(Consistency), 고립성(Isolation), 지속성(Durability) 라는 4가지 속성이 만족되었을 때 해당 연산은 하나의 트랜잭션 단위라고 볼 수 있다.
 
