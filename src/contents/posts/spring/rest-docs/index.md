@@ -8,6 +8,9 @@ tags:
 previewImage: kakao.png
 ---
 
+> 💡 현재 포스트는 [하모니 팀 기술 블로그](https://main--kakaotech-moheng.netlify.app/backend/rest-docs/) 에 게시된 글 입니다.
+
+
 ## Rest Docs 도입
 
 ![alt text](image.png)
