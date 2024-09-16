@@ -5,7 +5,7 @@ tags:
   - Spring
   - 하모니
   - Rest Docs
-previewImage": spring.png
+previewImage: kakao.png
 ---
 
 ## Rest Docs 도입

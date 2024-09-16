@@ -4,7 +4,7 @@ date: "2024-08-20"
 tags:
   - Spring
   - 테스트
-previewImage": test.png
+previewImage: test.png
 ---
 
 ## 이론편
