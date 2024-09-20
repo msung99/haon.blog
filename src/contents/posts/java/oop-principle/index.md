@@ -9,7 +9,7 @@ tags:
 previewImage: test.png
 ---
 
-💡 현재 포스트는 [하모니 팀 기술 블로그](https://kakaotech-harmony.netlify.app/backend/oop/)에 게시된 글 입니다.
+> 💡 현재 포스트는 [하모니 팀 기술 블로그](https://kakaotech-harmony.netlify.app/backend/oop/)에 게시된 글 입니다.
 
 ![alt text](./image.png)
 
