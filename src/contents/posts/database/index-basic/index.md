@@ -74,7 +74,7 @@ B-Tree 는 정렬된 트리 구조이므로 특정 노드를 찾는데 `O(logN)`
 
 ### B+ Tree
 
-![alt text](image-5.png)
+![alt text](image-6.png)
 
 B+ Tree 는 B- Tree 에서 개선된 구조로, 대부분의 DBMS 에서 채택중인 자료구조이다. 
 
