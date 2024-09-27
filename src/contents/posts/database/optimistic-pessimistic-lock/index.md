@@ -8,6 +8,9 @@ tags:
 previewImage: database.png
 ---
 
+> 💡 현재 포스트는 [하모니 팀 기술 블로그](https://kakaotech-harmony.netlify.app/backend/optimistic-pessimistic-lock/) 에 게시된 글 입니다.
+
+
 ## JPA 낙관적 락, 비관적 락
 
 자바 스프링 기반의 웹 애플리케이션은 기본적으로 멀티 쓰레드 환경에서 구동된다. 따라서 여러 쓰레드가 함께 접근할 수 있는 **공유자원에 대한 경쟁상태(race condintion)** 가 발생하지 않도록 별도의 제어가 필요하다.
