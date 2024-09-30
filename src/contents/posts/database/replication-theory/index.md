@@ -2,9 +2,10 @@
 title: 고가용성과 확장성을 위한 데이터베이스 레플리케이션(DB Replication)
 date: "2024-09-24"
 tags:
-  - 공부법
-  - 회고
-  - 메타인지
+tags:
+  - 고가용성
+  - 아키텍처
+  - 레플리케이션
 previewImage: database.png
 ---
 

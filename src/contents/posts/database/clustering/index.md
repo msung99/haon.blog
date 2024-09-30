@@ -2,9 +2,10 @@
 title: 고가용성과 확장성을 위한 데이터베이스 클러스터링(DB Clustering)
 date: "2024-09-23"
 tags:
-  - Spring
-  - 테스트
-  - 하온
+tags:
+  - 고가용성
+  - 아키텍처
+  - 클러스터링
 previewImage: database.png
 ---
 

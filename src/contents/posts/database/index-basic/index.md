@@ -2,9 +2,8 @@
 title: 데이터베이스 인덱스 B+ Tree 구조는 왜 조회 쿼리 성능이 빠를까?
 date: "2024-09-17"
 tags:
-  - Spring
-  - 테스트
-  - 하온
+  - 데이터베이스
+  - 인덱스
 previewImage: database.png
 ---
 

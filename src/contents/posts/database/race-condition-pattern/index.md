@@ -3,8 +3,7 @@ title: 경쟁 상태의 2가지 패턴 - Read-Modify-Write, Check-Then-Act
 date: "2024-09-19"
 tags:
   - Spring
-  - 테스트
-  - 하온
+  - 동시성
 previewImage: database.png
 ---
 

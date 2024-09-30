@@ -3,8 +3,7 @@ title: JPA 비관적 락(Pessimistic Lock) 을 사용한 동시성 이슈 해결
 date: "2024-09-27"
 tags:
   - Spring
-  - 테스트
-  - 하온
+  - 동시성
 previewImage: database.png
 ---
 

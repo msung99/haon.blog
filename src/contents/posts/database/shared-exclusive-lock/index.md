@@ -3,8 +3,7 @@ title: MySQL 8.0 공유 락(Shared Lock) 과 배타 락(Exclusive Lock)
 date: "2024-09-20"
 tags:
   - Spring
-  - 테스트
-  - 하온
+  - 동시성
 previewImage: database.png
 ---
 
