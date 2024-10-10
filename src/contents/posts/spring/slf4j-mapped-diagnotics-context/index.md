@@ -1,6 +1,6 @@
 ---
 title: Slf4j MDC(Mapped Diagnostic Context) 로 요청별로 식별 가능한 맥락 남기기
-date: "2024-10-5"
+date: "2024-10-05"
 tags:
   - Spring
   - 하모니
