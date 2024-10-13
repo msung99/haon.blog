@@ -2,14 +2,13 @@
 title: 트랜잭션내에 커넥션을 점유하는 외부 API 요청 분리를 통한 TPS 개선기 (feat. JPA OSIV)
 date: "2024-10-11"
 series: backend trouble shooting
-writer: 하온
 tags:
   - 스프링
   - HikariCP
   - JPA
   - OSIV
   - 하온
-previewImage: lion.png
+previewImage: lian.png
 ---
 
 > 💡 현재 포스트는 [하모니 팀 기술 블로그](https://kakaotech-harmony.netlify.app/backend/transaction-separate-osiv-issue/) 에 게시된 글 입니다.
