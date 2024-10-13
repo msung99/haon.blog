@@ -8,7 +8,7 @@ tags:
   - JPA
   - OSIV
   - 하온
-previewImage: lian.png
+previewImage: kakao.png
 ---
 
 > 💡 현재 포스트는 [하모니 팀 기술 블로그](https://kakaotech-harmony.netlify.app/backend/transaction-separate-osiv-issue/) 에 게시된 글 입니다.
