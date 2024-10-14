@@ -10,6 +10,11 @@ previewImage: backend/osiv.png
 
 > 💡 현재 포스트는 [하모니 팀 기술 블로그](https://kakaotech-harmony.netlify.app/backend/replication-osiv-issue/) 에 게시된 글 입니다.
 
+## 데이터베이스 레플리케이션을 통한 쿼리 성능 개선
+
+
+![alt text](image-4.png)
+
 
 최근에 [MySQL 8.0 레플리케이션과 스프링부트 DataSource 라우팅을 통한 부하 분산](https://haon.blog/database/replication-mysql-springboot/) 에서 MySQL 과 스프링부트 환경으로 레플리케이션 환경을 구축하는 방법에 대해 실습을 다루었다. 레플리케이션을 직접 우리 서비스에 구축하기 전까지는 크게 어려움이 없을 것이라고 생각했다.
 
@@ -56,7 +61,7 @@ public class AuthenticationArgumentResolver implements HandlerMethodArgumentReso
 
 ### Argument Resolver 는 트랜잭션을 사용하고 있다
 
-앞서 설명했듯이 Argument Resolver 는 `AuthService` 의 `extractMemberId()` 를 사용한다. `extractMemberId()` 는 아래와 같이 멤버 ID 를 추출하고, 회원 존재여부를 검증을 수행한다. 여기서 중요한 점은 `@Transactional(readOnly = true)` 로 선언되었다는 점이다.  **Argument Resolver 의 코드는 트랜잭션을 사용한다는 점을 알 수 있다.** 
+앞서 설명했듯이 Argument Resolver 는 `AuthService` 의 `extractMemberId()` 를 사용한다. `extractMemberId()` 는 아래와 같이 멤버 ID 를 추출하고, 회원 존재여부를 검증을 수행한다. 여기서 중요한 점은 `@Transactional(readOnly = true)` 로 선언되었다는 점이다.  **Argument Resolver 의 코드는 서비스 계층에 진입하여 트랜잭션을 사용한다는 점을 알 수 있다.** 
 
 그리고 여러 시도와 실험을 통해 `extractMemberId()` 의 트랜잭션 `readOnly` 설정 값에 따라 DataSource 가 동일하게 다른 트랜잭션에서도 사용되고 있다는 점을 알게 되었다. `extractMemberId()` 를 `readOnly=false` 로 설정했을 땐 DataSource 로 쓰기 전용인 소스(Source) 서버를 선택하게 되고, 반대로 `readOnly=true` 라면 읽기 전용인 레플리카 서버를 선택하게 된다. **즉, 로그인 인증을 요구하는 동일한 API 호출내의 다른 트랜잭션에서도 항상** `extractMemberId()` **와 동일한 DataSource 로 라우팅 된다는 점을 발견하게 되었다 🤔**
 
@@ -181,13 +186,17 @@ OSIV 를 비활성화하면 DataSource 분기 문제가 해결된다. OSIV 를 �
 
 ![alt text](image-3.png)
 
-우리 팀은 아래와 같이 `application.yml` 에서 OSIV 를 비활성화여, Multi DataSource 라우팅 문제를 해결할 수 있게 되었다. 😎
+우리 팀은 아래와 같이 `application.yml` 에서 OSIV 를 비활성화여, Multi DataSource 라우팅 문제를 해결할 수 있게 되었다. 설정을 위와 같이 변경하고, 다시 테스트하면 DataSource 라우팅이 정상적으로 동작한다 😎
 
 ~~~java
 spring:
   jpa:
     open-in-view: false
 ~~~
+
+
+## 마치며
+레플리케이션 환경에서 DataSource 라우팅이 크게 어렵진 않을 것이라고 예상했지만, 내 생각과 달리 JPA 와 데이터베이스에 대한 높은 이해도가 요구되었다. 특히나 여지껏 OSIV 라는 키워드 자체를 몰랐기 떄문에, 다시 한번 반성하면서 동시에 큰 배움을 얻을 수 있었다. 앞으로도 프로덕션을 개발하면서 현재 사용하는 프레임워크와 라이브러리에 대한 깊은 이해도를 갖기위해 계속 노력해야겠다.
 
 
 ## 참고
