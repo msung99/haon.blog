@@ -4,7 +4,7 @@ date: "2024-09-17"
 tags:
   - 데이터베이스
   - 인덱스
-previewImage: database.png
+previewImage: index.png
 ---
 
 ![alt text](image-1.png)

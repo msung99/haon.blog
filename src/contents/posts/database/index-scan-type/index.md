@@ -4,7 +4,7 @@ date: "2024-10-15"
 tags:
   - 데이터베이스
   - 인덱스
-previewImage: mysql.png
+previewImage: index.png
 ---
 
 ## 인덱스 레인지 스캔
