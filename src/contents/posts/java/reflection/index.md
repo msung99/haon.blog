@@ -2,9 +2,8 @@
 title: 자바에서 리플렉션 (Java Reflection) 사용하기
 date: "2024-10-22"
 tags:
-  - 데이터베이스
-  - 레플리케이션
-  - MySQL
+  - JAVA
+  - 리플렉션
 previewImage: java.png
 ---
 
