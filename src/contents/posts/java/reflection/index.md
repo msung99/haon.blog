@@ -1,5 +1,5 @@
 ---
-title: 자바에서 리플렉션 (Java Reflection) 사용하기
+title: 자바 리플렉션 (Java Reflection) 다루기
 date: "2024-10-22"
 tags:
   - JAVA
@@ -149,3 +149,4 @@ public class DatabaseCleaner {
 - https://www.youtube.com/watch?v=67YdHbPZJn4
 - https://www.youtube.com/watch?v=RZB7_6sAtC4&t=197s
 - https://hamait.tistory.com/317
+- https://ysiksik.github.io/elegant-tekotok/2023-11-08-HOPK-JAVA-Reflection/
