@@ -8,6 +8,8 @@ tags:
 previewImage: mysql.png
 ---
 
+> 💡 현재 포스트는 [하모니 팀 기술 블로그](https://kakaotech-harmony.netlify.app/backend/replication-architecture/) 에 게시된 글 입니다.
+
 [고가용성과 확장성을 위한 데이터베이스 레플리케이션(DB Replication)](https://haon.blog/database/replication-theory/) 에서 데이터베이스 레플리케이션의 필요성, 그리고 MySQL 기준 레플리케이션 동작 방식에 대해 간단히 다루어보았다. 이번에는 MySQL 레플리케이션의 동작 방식에 대해 더 깊게 학습해보고자 한다.
 
 ## MySQL 레플리케이션 아키텍처
