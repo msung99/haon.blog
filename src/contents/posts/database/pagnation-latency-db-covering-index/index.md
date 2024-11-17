@@ -11,6 +11,9 @@ tags:
 previewImage: index.png
 ---
 
+> 💡 현재 포스트는 [하모니 팀 기술 블로그](https://haon.blog/database/pagnation-latency-db-covering-index/) 에 게시된 글 입니다.
+
+
 이번 트러블슈팅 해결기는 지난 [MySQL 인덱스 레인지 스캔을 통한 쿼리 성능 개선기](https://kakaotech-harmony.netlify.app/backend/index-range-scan-improvement/) 에 이어지는 내용입니다. 지난 인덱스 적용을 통한 쿼리 성능 개선시 발생한 문제점을 어떻게 또 다시 해결했는지를 다루는 것이므로, 지난 포스팅을 읽고오신다면 이해에 큰 도움이 될 것입니다! 😎
 
 ## 문제 상황
