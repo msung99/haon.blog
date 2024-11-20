@@ -8,6 +8,8 @@ tags:
 previewImage: redis.png
 ---
 
+> 💡 현재 포스트는 [하모니 팀 기술 블로그](https://kakaotech-harmony.netlify.app/backend/redis-pub-sub-local-cache-synchornization/) 에 게시된 글 입니다.
+
 ## 분산 환경에서 로컬 캐시 동기화 문제
 
 지난 [스프링 로컬 캐시와 TTL 을 구현한 외부 서빙 API 요청 최적화](https://kakaotech-harmony.netlify.app/backend/local-cache-custom/) 에서 다루었듯이, 우리 모행 서비스에는 로컬 캐시를 사용하여 외부 서드파티 API 호출에 대한 응답을 캐싱해두고 재사용한다. 지금까지는 단일 서버로 동작하기 떄문에 캐싱에 별 문제가 없어보인다. 그런데 만약, 우리 서비스가 향후 Scale-Out된 분산 환경이라면 로컬 캐시에 어떤 문제가 발생할까?
