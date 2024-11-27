@@ -1,6 +1,6 @@
 ---
 title: 레거시 DAO 를 리팩토링하며 JDBC 라이브러리 구현하기
-date: "2024-01-18"
+date: "2024-10-28"
 tags:
   - JDBC
   - JdbcTemplate

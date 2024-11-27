@@ -1,6 +1,6 @@
 ---
 title: AJAX 기반 레거시 MVC 프레임워크 구현하기
-date: "2024-02-14"
+date: "2024-11-06"
 tags:
   - MVC
   - JSP
