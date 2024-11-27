@@ -1,6 +1,6 @@
 ---
 title: Object.equals의 일반 규약을 지켜서 재정의하라
-date: "2023-09-04"
+date: "2023-09-14"
 tags:
   - JAVA
   - equals
