@@ -1,6 +1,6 @@
 ---
 title: 팩토리 메소드 패턴 (Factory Method Pattern)
-date: "2023-09-04"
+date: "2024-07-27"
 tags:
   - JAVA
   - 디자인패턴

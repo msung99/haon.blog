@@ -1,6 +1,6 @@
 ---
-title: AWS EC2, Nginx 를 활용하여 배포하기
-date: "2023-01-03"
+title: AWS EC2, Nginx 를 활용하여 스프링 애플리케이션 배포하기
+date: "2024-08-05"
 tags:
   - 배포
   - Nginx

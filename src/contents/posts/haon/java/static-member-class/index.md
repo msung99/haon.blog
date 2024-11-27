@@ -1,6 +1,6 @@
 ---
 title: 자바의 멤버 클래스는 되도록 static을 붙여서 정적 멤버 클래스로 만들어라
-date: "2023-08-29"
+date: "2024-07-11"
 tags:
   - JAVA
 previewImage: java.png

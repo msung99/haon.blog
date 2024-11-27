@@ -1,6 +1,6 @@
 ---
 title: 자바의 toString 메소드를 올바르게 활용하는 방법에 대하여
-date: "2023-09-04"
+date: "2024-07-11"
 tags:
   - JAVA
   - tostring

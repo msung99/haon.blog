@@ -1,6 +1,6 @@
 ---
 title: 자바의 레퍼 클래스 (Wrapper Class)
-date: "2023-09-06"
+date: "2024-07-12"
 tags:
   - JAVA
 previewImage: java.png

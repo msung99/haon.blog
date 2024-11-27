@@ -1,6 +1,6 @@
 ---
 title: 자바 컬렉션(Collection) 의 개념과 종류
-date: "2023-08-18"
+date: "2024-07-02"
 tags:
   - JAVA
 previewImage: java.png

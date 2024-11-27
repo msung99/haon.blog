@@ -1,18 +1,12 @@
 ---
 title: Nginx 기반 HTTPS 프로토콜을 적용하여 서비스 배포하기
-date: "2023-01-31"
+date: "2024-08-05"
 tags:
   - Nginx
   - HTTPS
   - CertBot
 previewImage: infra.png
 series: Nginx
----
-
-## 시작에 앞서
-
-이번에는 마지막으로 https 를 서비스에 적용시켜 보겠습니다.
-
 ---
 
 ## SSL 이란?
@@ -224,13 +218,10 @@ $ crontab -e
 
 이렇게 Nginx 서버에서 어떻게 SSL 를 자동 발급받고 HTTPS 프로토콜에 기반해 통신할 수 있을지에 대해 자세히 다루어봤습니다. Nginx 를 학습하시는 모든 분들에게 도움이 되셨으면 합니다 😉
 
----
+- [Certbot Docs](https://eff-certbot.readthedocs.io/en/stable/)
+- [[Nginx] Let's Encrypt - SSL Certificates](https://minholee93.tistory.com/entry/Nginx-Lets-Encrypt-SSL-Certificates)
+- [https 적용하기 - certbot. Let's encrypt](https://junho85.pe.kr/2048)
+- [Let's Encrypt 로 https 적용하기](https://syudal.tistory.com/entry/Ubuntu-Nginx-Lets-Encrypt%EB%A1%9C-https-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0)
+- [[linux][crontab -e 에서 빠져나오기]](https://linuxmadang.tistory.com/entry/linuxcrontab-e-%EC%97%90%EC%84%9C-%EB%B9%A0%EC%A0%B8%EB%82%98%EC%98%A4%EA%B8%B0)
+- [gabia](https://www.gabia.com/)
 
-[Certbot Docs](https://eff-certbot.readthedocs.io/en/stable/)
-[[Nginx] Let's Encrypt - SSL Certificates](https://minholee93.tistory.com/entry/Nginx-Lets-Encrypt-SSL-Certificates)
-[https 적용하기 - certbot. Let's encrypt](https://junho85.pe.kr/2048)
-[Let's Encrypt 로 https 적용하기](https://syudal.tistory.com/entry/Ubuntu-Nginx-Lets-Encrypt%EB%A1%9C-https-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0)
-[[linux][crontab -e 에서 빠져나오기]](https://linuxmadang.tistory.com/entry/linuxcrontab-e-%EC%97%90%EC%84%9C-%EB%B9%A0%EC%A0%B8%EB%82%98%EC%98%A4%EA%B8%B0)
-[gabia](https://www.gabia.com/)
-
-.

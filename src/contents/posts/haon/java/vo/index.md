@@ -1,6 +1,6 @@
 ---
 title: VO(Value Object) 란 무엇이고, 캡슐화를 통해 얻는 이점은 무엇인가?
-date: "2023-09-13"
+date: "2024-07-05"
 tags:
   - JAVA
   - VO
