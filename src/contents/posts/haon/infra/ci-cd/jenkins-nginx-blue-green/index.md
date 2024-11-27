@@ -1,6 +1,6 @@
 ---
 title: Jenkins 와 Nginx 를 활용한 Blue/Green 배포 환경 구축하기
-date: "2023-05-16"
+date: "2024-10-10"
 tags:
   - Jenkins
   - CI/CD

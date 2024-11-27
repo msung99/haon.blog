@@ -1,6 +1,6 @@
 ---
 title: Jenkins 의 파이프라인 기반 배포 자동화 환경 구축 구축하기
-date: "2023-05-16"
+date: "2024-10-08"
 tags:
   - Jenkins
   - CI/CD
