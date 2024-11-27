@@ -1,13 +1,13 @@
 ---
 title: OSI 7계층의 물리, 데이터 링크 계층(1~2계층)
-date: "2024-03-26"
+date: "2024-11-05"
 tags:
   - 네트워크
   - OSI
 previewImage: server.png
 ---
 
-> OSI 에 대한 전반적인 개요는 [OSI 7계층, TCP/IP 프로토콜의 기본 규약 정리](https://haon.blog/network/intro/) 를 참고하자.
+> OSI 에 대한 전반적인 개요는 [OSI 7계층, TCP/IP 프로토콜의 기본 규약 정리](https://haon.blog/haon/network/intro/) 를 참고하자.
 
 ---
 

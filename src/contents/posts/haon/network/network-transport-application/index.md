@@ -1,13 +1,13 @@
 ---
 title: OSI 7계층의 네트워크, 전송, 애플리케이션 계층 (3,4,7 계층)
-date: "2024-03-30"
+date: "2024-11-03"
 tags:
   - 네트워크
   - OSI
 previewImage: server.png
 ---
 
-> OSI 에 대한 전반적인 개요는 [OSI 7계층, TCP/IP 프로토콜의 기본 규약 정리](https://haon.blog/network/intro/) 를 참고하자.
+> OSI 에 대한 전반적인 개요는 [OSI 7계층, TCP/IP 프로토콜의 기본 규약 정리](https://haon.blog/haon/network/intro/) 를 참고하자.
 
 ## 네트워크 계층(Network Layer)
 
