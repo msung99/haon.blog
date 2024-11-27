@@ -1,6 +1,6 @@
 ---
 title: 자바 불변 클래스
-date: "2023-08-29"
+date: "2024-09-17"
 tags:
   - JAVA
 previewImage: java.png
