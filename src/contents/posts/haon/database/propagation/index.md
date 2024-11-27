@@ -1,6 +1,6 @@
 ---
 title: 트랜잭션의 전파(propagation) 속성과 추상화 인터페이스
-date: "2023-03-09"
+date: "2023-10-13"
 tags:
   - 데이터베이스
   - 트랜잭션
@@ -296,7 +296,6 @@ public void orderItem(int price){
 }
 ```
 
----
 
 ## 정리
 
@@ -304,12 +303,10 @@ public void orderItem(int price){
 
 #### 출처 : [[Spring] 스프링의 트랜잭션 전파 속성(Transaction propagation) 완벽하게 이해하기](https://mangkyu.tistory.com/269)
 
----
-
 ## 참고
 
-[[Spring] 스프링의 트랜잭션 전파 속성(Transaction propagation) 완벽하게 이해하기](https://mangkyu.tistory.com/269)
-[[면접 대비] 스프링과 트랜잭션](https://velog.io/@syleemk/%EB%A9%B4%EC%A0%91-%EB%8C%80%EB%B9%84-%EC%8A%A4%ED%94%84%EB%A7%81-%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98-%EC%A0%84%ED%8C%8C#%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98%EC%9D%B4-%EC%99%9C-%ED%95%84%EC%9A%94%ED%95%9C%EA%B0%80)
-[[Spring] @Transactional의 전파 레벨에 대해 알아보자](https://kth990303.tistory.com/385)
-[[Spring JPA] 부모 트랜잭션 내에 자식 트랜잭션이 실행될 때 (@Transactional)](https://velog.io/@titu/Spring-JPA-%EB%B6%80%EB%AA%A8-%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98-%EB%82%B4%EC%97%90-%EC%9E%90%EC%8B%9D-%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98%EC%9D%B4-%EC%8B%A4%ED%96%89%EB%90%A0-%EB%95%8C-Transactional)
-[[Spring] 트랜잭션 전파 알아보기, @Transaction, propagation](https://steady-hello.tistory.com/121)
+- [[Spring] 스프링의 트랜잭션 전파 속성(Transaction propagation) 완벽하게 이해하기](https://mangkyu.tistory.com/269)
+- [[면접 대비] 스프링과 트랜잭션](https://velog.io/@syleemk/-%EB%A9%B4%EC%A0%91-%EB%8C%80%EB%B9%84-%EC%8A%A4%ED%94%84%EB%A7%81-%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98-%EC%A0%84%ED%8C%8C#%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98%EC%9D%B4-%EC%99%9C-%ED%95%84%EC%9A%94%ED%95%9C%EA%B0%80)
+- [[Spring] @Transactional의 전파 레벨에 대해 알아보자](https://kth990303.tistory.com/385)
+- [[Spring JPA] 부모 트랜잭션 내에 자식 트랜잭션이 실행될 때 (@Transactional)](https://velog.io/@titu/Spring-JPA-%EB%B6%80%EB%AA%A8-%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98-%EB%82%B4%EC%97%90-%EC%9E%90%EC%8B%9D-%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98%EC%9D%B4-%EC%8B%A4%ED%96%89%EB%90%A0-%EB%95%8C-Transactional)
+- [[Spring] 트랜잭션 전파 알아보기, @Transaction, propagation](https://steady-hello.tistory.com/121)
