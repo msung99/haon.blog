@@ -1,6 +1,6 @@
 ---
 title: Redis 를 활용하여 Refresh 토큰 접근속도 개선하기
-date: "2023-03-01"
+date: "2024-09-14"
 tags:
   - Redis
   - 인증/인가
