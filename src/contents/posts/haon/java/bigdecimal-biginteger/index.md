@@ -1,6 +1,6 @@
 ---
 title: 자바의 BigDecimal, BigInteger
-date: "2023-08-16"
+date: "2024-08-16"
 tags:
   - JAVA
   - BigInteger
