@@ -3,6 +3,10 @@ title: ✒️ 카카오테크 부트캠프에서 찾아낸 나만의 효과적�
 date: "2024-11-28"
 tags:
   - 회고
+  - 카카오
+  - kakao
+  - 카카오테크 부트캠프
+  - 카테부
 previewImage: kakao.png
 ---
 
