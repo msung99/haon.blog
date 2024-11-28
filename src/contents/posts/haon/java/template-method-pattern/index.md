@@ -1,6 +1,6 @@
 ---
 title: 자바와 템플릿 메소드 패턴(Template Method Pattern)
-date: "2024-97-27"
+date: "2024-07-27"
 tags:
   - JAVA
   - 디자인패턴
