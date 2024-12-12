@@ -1,5 +1,5 @@
 ---
-title: Redis 분산 락(Distribution Lock)을 활용하여 동시성 제어하기
+title: Redis 분산 락(Distribution Lock)을 구현하여 동시성 해결하기
 date: "2024-12-11"
 tags:
   - Spring
@@ -119,6 +119,8 @@ Jmeter 를 사용하여 동시간대에 100개의 요청을 보내도록 한다.
 이를 Redis 에서 제공하는 분산 락으로 해결해보자. 분산 락 구현방식에는 크게 2가지가 존재한다.
 
 ## Redis SETNX 를 뢀용
+
+> 💡 Redis 2.6.12 버전 이전에는 `SETNX` 명령어가 제공되었지만, 2.6.12 버전부터는 deprecated 되었다고 한다. SET 명령어에 NX 옵션을 전달하는 방향으로 수정하였다. 우선, `SETNX` 명령을 기준으로 설명한다. 이후 포스팅에서 2.6.12 이후 버전의 RedLock 알고리즘에 대해 다루어보고자 한다.
 
 Redis 에는 `SETNX` 라는 명령어가 존재한다. "**SET** if **N**ot e**X**ists" 의 줄임말이다. 말 그대로 특정 key 에 value 가 존재하지 않을때만 값을 설정할 수 있다는 뜻이다.
 
