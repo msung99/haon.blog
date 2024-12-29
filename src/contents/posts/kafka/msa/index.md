@@ -2,8 +2,7 @@
 title: MSA 기초
 date: "2024-12-29"
 tags:
-  - 아키텍처
-  - 가상면접
+  - MSA
 previewImage: msa.png
 ---
 
