@@ -3,6 +3,8 @@ title: 확정할 수 없는 모종의 네트워크 에러/지연 문제를 안�
 date: "2024-12-31"
 tags:
   - 토스 Slash
+  - msa
+  - 네트워크
 previewImage: toss.png
 ---
 

@@ -7,7 +7,7 @@ tags:
   - SAGA
   - 2PC
   - 보상 트랜잭션
-previewImage: toss.png
+previewImage: msa.png
 ---
 
 ## MSA 환경에서 글로벌 트랜잭션 구현하기
