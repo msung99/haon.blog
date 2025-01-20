@@ -8,6 +8,7 @@ tags:
   - 2PC
   - 보상 트랜잭션
 previewImage: toss.png
+isPrivate: true
 ---
 
 ## 코어뱅킹 서버의 환전 기능
