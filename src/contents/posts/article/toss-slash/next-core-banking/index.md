@@ -8,6 +8,7 @@ tags:
   - 2PC
   - 보상 트랜잭션
 previewImage: toss.png
+isPrivate: true
 ---
 
 ## 왜 모든 은행은 Oracle 만 사용하고 있을까?
