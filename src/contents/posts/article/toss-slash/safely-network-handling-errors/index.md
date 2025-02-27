@@ -1,8 +1,7 @@
 ---
-title: 네트워크 타임아웃 에러/지연 문제를 안전하게 처리하기
+title: 네트워크 타임아웃 에러/지연 문제를 안전하게 처리하기 위한 전략
 date: "2024-12-31"
 tags:
-  - 토스 Slash
   - msa
   - 네트워크
 previewImage: timeout.png

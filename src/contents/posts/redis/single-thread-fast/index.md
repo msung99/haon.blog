@@ -1,6 +1,6 @@
 ---
 title: Redis 는 왜 싱글 쓰레드인데 성능이 빠를까?
-date: "2024-12-15"
+date: "2024-12-22"
 tags:
   - Redis
 previewImage: redis.png

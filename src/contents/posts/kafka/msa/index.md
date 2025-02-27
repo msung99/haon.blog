@@ -1,6 +1,6 @@
 ---
 title: MSA 기초
-date: "2024-12-28"
+date: "2024-11-28"
 tags:
   - MSA
 previewImage: msa.png
