@@ -1,15 +1,15 @@
 ---
-title: Jenkin와 Nginx를 활용한 Blue/Green 무중단 배포 도입기
-date: "2024-11-18"
+title: 하모니 팀의 Jenkin와 Nginx를 활용한 Blue/Green 무중단 배포 도입기
+date: "2025-01-11"
 tags:
   - 무중단배포
   - 블루그린
   - Jenkins
   - Nginx
-previewImage: network.png
+previewImage: strategy-pattern.png
 ---
 
-> 현재 포스팅은 카카오테크 하모니 팀 크루 [하온(haon)](https://github.com/msung99) 이 작성했습니다.
+> 💡 현재 포스트는 [하모니 팀 기술 블로그](https://kakaotech-harmony.netlify.app/backend/blue-green/) 에도 게시된 글 입니다.
 
 ## 기존 배포 방식에서 Downtime이 발생하는 문제점
 
