@@ -1,5 +1,5 @@
 ---
-title: 하모니 팀의 Jenkin와 Nginx를 활용한 Blue/Green 무중단 배포 도입기
+title: 하모니 팀의 Jenkins와 Nginx를 활용한 Blue/Green 무중단 배포 도입기
 date: "2025-01-11"
 tags:
   - 무중단배포
