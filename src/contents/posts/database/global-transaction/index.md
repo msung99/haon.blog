@@ -1,11 +1,11 @@
 ---
-title: 글로벌 트랜잭션 (2PC, XA, JTA)
+title: 글로벌 트랜잭션 (2PC, XA, JTA Manager)
 date: "2025-01-08"
 tags:
   - MSA
   - 데이터베이스
   - 트랜잭션
-previewImage: mysql.png
+previewImage: strategy-pattern.png
 ---
 
 데이터베이스 레플리케이션에 대해 깊이있게 학습하던 중, `GTID(Global Transaction ID)` 에 대해 알게 되었다. 그런데, 이 중에 글로벌 트랜잭션이라는 키워드가 등장한다. 이 글로벌 트랜잭션이란 무엇인지에 대해 찾아보니, 레플리케이션에서 GTID 에 등장하는 글로벌 트랜잭션의 개념과 그냥 글로벌 트랜잭션은 전혀 다른 개념이었다. 글로벌 트랜잭션에 대해 글을 작성하며, GTID 에서 등장하는 개념과 무엇이 다른지 더 확실히 개념을 짚어보고자 한다.

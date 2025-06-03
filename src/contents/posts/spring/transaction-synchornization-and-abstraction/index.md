@@ -1,5 +1,5 @@
 ---
-title: 스프링 트랜잭션 동기화와 추상화 (feat. TransactionManager)
+title: 트랜잭션 동기화와 추상화 (feat. JDBC Connection)
 date: "2024-12-30"
 tags:
   - 데이터베이스
