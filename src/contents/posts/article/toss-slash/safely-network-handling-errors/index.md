@@ -1,9 +1,11 @@
 ---
-title: 네트워크 타임아웃 에러/지연 문제를 안전하게 처리하기 위한 전략
+title: 네트워크 타임아웃 문제를 안전히 처리하기 위한 재시도 전략 (Backoff, Retry Storm)
 date: "2024-12-31"
 tags:
   - msa
   - 네트워크
+  - BackOff
+  - Retry
 previewImage: timeout.png
 ---
 

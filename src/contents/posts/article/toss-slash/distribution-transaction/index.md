@@ -1,6 +1,6 @@
 ---
 title: MSA 환경에서 SAGA 패턴과 2PC 패턴를 통해 트랜잭션 일관성 보장하기
-date: "2025-01-01"
+date: "2025-01-11"
 tags:
   - 토스 Slash
   - MSA
