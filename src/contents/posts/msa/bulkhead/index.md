@@ -144,7 +144,7 @@ public class Main {
     }
 
     public static void callCService(long callTime) {
-        System.out.println("* 서비스 C 호출 완료 | 소요 시간: " + (System.currentTimeMillis() - callTime) + "ms");
+        System.out.println("* 서비스 C 호출 완료 | 소요 시간 : " + (System.currentTimeMillis() - callTime) + "ms");
     }
 }
 ```
