@@ -24,7 +24,7 @@ LINE+ 서버 개발자로 재직중인 이민성입니다. 110,000 TPS, 일일 4
 
 ### 📸 Skills
 
-- Java, Kotlin, 
+- Java, Kotlin
 - Spring Boot (JPA, Spring Batch/Cloud)
 - Redis, Kafka
 - MySQL, Apache Kylin (Hadoop)
