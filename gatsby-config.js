@@ -13,12 +13,12 @@ module.exports = {
     description: `꾸준히, 배움에 대한 생각을 글로 정제하기 위한 블로그입니다.`,
     author: `Haon`,
     siteUrl: `https://haon.blog/`,
-    keywords: [`gatsby starter haon`, `kakaotech`], 
+    keywords: [`LINE PLUS`, `server developer`], 
     repo: 'msung99/haon.blog',
     socialLinks: { 
       github: 'https://github.com/msung99', 
-      instagram: 'https://www.instagram.com/iminseong920/', 
-      email: 'msung6924@naver.com',
+      linkedin: "https://www.linkedin.com/in/haon-dev",
+      email: 'msung6924@kakao.com',
   },
   },
   plugins: [
