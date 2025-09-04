@@ -1,5 +1,5 @@
 ---
-title: Spring Cloud 란 무엇이고, 왜 사용하는걸끼?
+title: Spring Cloud 란 무엇이고, 왜 사용하는걸까?
 date: "2025-09-04"
 tags:
   - Spring
