@@ -1,5 +1,5 @@
 ---
-title: Spring Batch 기본 스택 및 아키텍처 알아보기
+title: Spring Batch 개요
 date: "2025-09-09"
 tags:
   - Spring

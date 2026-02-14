@@ -10,10 +10,10 @@
 module.exports = {
   siteMetadata: {
     title: `haon.blog`,
-    description: `꾸준히, 배움에 대한 생각을 글로 정제하기 위한 블로그입니다.`,
+    description: `LINE+ 서버 개발자로 재직중인 이민성(Haon) 입니다.`,
     author: `Haon`,
     siteUrl: `https://haon.blog/`,
-    keywords: [`LINE PLUS`, `server developer`], 
+    keywords: [`@LINE`, `server developer`], 
     repo: 'msung99/haon.blog',
     socialLinks: { 
       github: 'https://github.com/msung99', 
