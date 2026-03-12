@@ -5,6 +5,7 @@ import PageLayout from  "../components/layout/page-component"
 import PostList from "../components/postlist"
 import Profile from "../components/profile"
 import SimpleTagList from "../components/simple-taglist"
+import MainPostList from "../components/main-postlist"
 import styled from "styled-components"
 import Seo from "../components/seo"
 import { siteMetadata } from "../../gatsby-config.js";
@@ -35,6 +36,7 @@ const PostListTemplate = ({ data, location }) => {
       <Seo title={title} description={description}/>
       <Profile author={author} description={description} siteUrl={siteUrl} keywords={keywords} socialLinks={socialLinks}/>
       <Line/>
+      <MainPostList posts={posts}/>
       <SimpleTagList tags={publicTags} allCount={filteredTagsCount}/>
       <PostCount>All Posts ({filteredPosts.length})</PostCount>
       <PostList posts={posts}></PostList>
@@ -82,6 +84,7 @@ export const pageQuery = graphql`
           series
           previewImage
           isPrivate
+          isMainPost
         }
       }
       group(field: frontmatter___tags) {

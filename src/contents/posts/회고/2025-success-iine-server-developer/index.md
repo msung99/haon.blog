@@ -6,7 +6,9 @@ tags:
   - 라인
   - LINE Plus
   - 회고
+series: 20년도 개발자 성장 관련 회고
 previewImage: line.png
+isMainPost: true
 ---
 
 ## LINE 개발자, LINER가 되었다
