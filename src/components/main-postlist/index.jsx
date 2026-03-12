@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "gatsby";
 import styled from "styled-components";
+import { siteMetadata } from "../../../gatsby-config";
 
 const MainPostList = ({ posts }) => {
   // isPrivate가 false이고 isMainPost가 true인 항목만 필터링
@@ -17,13 +18,14 @@ const MainPostList = ({ posts }) => {
       <MainPostsHeader>Main Posts</MainPostsHeader>
       <MainPostListContainer>
         {mainPosts.map((post, index) => {
-          const { title } = post.frontmatter;
+          const { title, previewImage } = post.frontmatter;
           const slug = post.fields.slug;
 
           return (
             <PostItem key={index}>
               <PostLink to={slug}>
-                {title || slug}
+                <Thumbnail previewImage={previewImage} />
+                <PostTitle>{title || slug}</PostTitle>
               </PostLink>
             </PostItem>
           );
@@ -35,10 +37,10 @@ const MainPostList = ({ posts }) => {
 
 const MainPostsHeader = styled.h2`
   font-size: 16px;
-  color: ${props => props.theme.main.text};
+  color: ${props => props.theme.tag.text};
   font-weight: bold;
   margin-left: 10px;
-  padding-top: 15px;
+  padding-top: 5px;
   padding-bottom: 10px;
 `;
 
@@ -50,6 +52,14 @@ const MainPostListContainer = styled.ul`
 
 const PostItem = styled.li`
   margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+
+  &::before {
+    content: "• ";
+    margin-right: 8px;
+    color: ${props => props.theme.tag.text};
+  }
 `;
 
 const PostLink = styled(Link)`
@@ -57,15 +67,33 @@ const PostLink = styled(Link)`
   color: ${props => props.theme.tag.text};
   font-size: 16px;
   transition: opacity 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 
   &:hover {
     opacity: 0.7;
-    text-decoration: underline;
   }
+`;
 
-  &::before {
-    content: "• ";
-    margin-right: 8px;
+const basicUrl =
+  typeof window !== "undefined" && window.location.host === "localhost:8000"
+    ? "http://localhost:8000"
+    : siteMetadata.siteUrl;
+
+const Thumbnail = styled.div`
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-image: url(${props => (props.previewImage ? `${basicUrl}/${props.previewImage}` : `${basicUrl}/default.png`)});
+  background-size: cover;
+  background-position: center;
+  flex-shrink: 0;
+`;
+
+const PostTitle = styled.span`
+  &:hover {
+    text-decoration: underline;
   }
 `;
 

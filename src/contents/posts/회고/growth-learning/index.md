@@ -7,6 +7,7 @@ tags:
   - 메타인지
 series: 20년도 개발자 성장 관련 회고
 previewImage: kakao.png
+isMainPost: true
 ---
 
 ![alt text](image-10.png)
