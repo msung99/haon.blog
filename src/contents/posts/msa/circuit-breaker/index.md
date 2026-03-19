@@ -2,9 +2,7 @@
 title: Circuit Breaker 패턴을 활용한 MSA 환경내 장애 차단
 date: "2026-03-18"
 tags:
-  - 공부법
-  - 회고
-  - 메타인지
+  - MSA
 previewImage: msa.png
 ---
 
