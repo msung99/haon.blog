@@ -45,6 +45,7 @@ export const LIGHT_THEME_COLORS = {
     toc: {
       a: '#666',
       hover: 'black',
+      active: 'black',
     },
     content: {
       highlight: {
@@ -135,6 +136,7 @@ export const DARK_THEME_COLORS = {
     toc: {
       a: '#a0a0a0',
       hover: '#e8e8e8',
+      active: '#ffffff',
     },
     content: {
       highlight: {
