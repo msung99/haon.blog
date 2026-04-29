@@ -1,0 +1,147 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1777429306294,
+  "projectRoot": "/Users/al03160969/Desktop/haon.blog",
+  "techStack": {
+    "languages": [
+      {
+        "name": "JavaScript/TypeScript",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "package.json"
+        ]
+      }
+    ],
+    "frameworks": [
+      {
+        "name": "react",
+        "version": "18.2.0",
+        "category": "frontend"
+      },
+      {
+        "name": "react-dom",
+        "version": "18.2.0",
+        "category": "frontend"
+      }
+    ],
+    "packageManager": "yarn",
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": "yarn build",
+    "testCommand": "yarn test",
+    "lintCommand": null,
+    "devCommand": "yarn start",
+    "scripts": {
+      "build": "gatsby build",
+      "develop": "gatsby develop",
+      "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md,css}\"",
+      "start": "gatsby develop",
+      "serve": "gatsby serve",
+      "clean": "gatsby clean",
+      "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    }
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": "type-based"
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [
+      "src",
+      "static"
+    ],
+    "gitBranches": {
+      "defaultBranch": "main",
+      "branchingStrategy": null
+    }
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "src": {
+      "path": "src",
+      "purpose": "Source code",
+      "fileCount": 1,
+      "lastAccessed": 1777429306259,
+      "keyFiles": []
+    },
+    "static": {
+      "path": "static",
+      "purpose": "Static files",
+      "fileCount": 30,
+      "lastAccessed": 1777429306269,
+      "keyFiles": [
+        "book.png",
+        "bulkhead.png",
+        "database.png",
+        "default.png",
+        "elk.png"
+      ]
+    },
+    "src/components": {
+      "path": "src/components",
+      "purpose": "UI components",
+      "fileCount": 0,
+      "lastAccessed": 1777429306270,
+      "keyFiles": []
+    },
+    "src/pages": {
+      "path": "src/pages",
+      "purpose": "Page components",
+      "fileCount": 7,
+      "lastAccessed": 1777429306270,
+      "keyFiles": [
+        "404.jsx",
+        "about.jsx",
+        "community.jsx"
+      ]
+    },
+    "src/utils": {
+      "path": "src/utils",
+      "purpose": "Utility functions",
+      "fileCount": 1,
+      "lastAccessed": 1777429306270,
+      "keyFiles": [
+        "localStorage.jsx"
+      ]
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "src/components/postlist/index.jsx",
+      "accessCount": 5,
+      "lastAccessed": 1777439997659,
+      "type": "file"
+    },
+    {
+      "path": "src/components/profile/index.jsx",
+      "accessCount": 4,
+      "lastAccessed": 1777439997626,
+      "type": "file"
+    },
+    {
+      "path": "src/components/main-postlist/index.jsx",
+      "accessCount": 4,
+      "lastAccessed": 1777439997745,
+      "type": "file"
+    },
+    {
+      "path": "src/components/menu-bar/aside/index.jsx",
+      "accessCount": 3,
+      "lastAccessed": 1777439997692,
+      "type": "file"
+    },
+    {
+      "path": "gatsby-config.js",
+      "accessCount": 1,
+      "lastAccessed": 1777439710876,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}

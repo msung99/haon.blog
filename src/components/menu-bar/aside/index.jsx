@@ -130,13 +130,8 @@ const SocialText = styled.p`
   line-height: 125%;
 `;
 
-const profileImageUrl =
-  typeof window !== "undefined" && window.location.host === "localhost:8000"
-    ? "http://localhost:8000"
-    : siteMetadata.siteUrl;
-
 const SocialImage = styled.div`
-  background-image: url(${profileImageUrl}/profile.png);
+  background-image: url(/profile.png);
   width: 38px;
   height: 38px;
   border: 1px solid transparent;

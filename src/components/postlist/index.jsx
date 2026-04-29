@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import { Link } from "gatsby";
 import styled from "styled-components";
 import kebabCase from "lodash.kebabcase";
-import { siteMetadata } from "../../../gatsby-config";
 import PostPagination from "../pagination";
 
 const PostList = ({ posts }) => {
@@ -163,11 +162,6 @@ const EmptySpace = styled.div`
   height: 80vh;
 `;
 
-const basicUrl =
-  typeof window !== "undefined" && window.location.host === "localhost:8000"
-    ? "http://localhost:8000"
-    : siteMetadata.siteUrl;
-
 const ImageWrapper = styled.div`
   width: 150px;
   height: 150px;
@@ -200,7 +194,7 @@ const ImageMobileWrapper = styled.div`
 `;
   
 const Image = styled.div`
-  background-image: url(${props => (props.previewImage ? `${basicUrl}/${props.previewImage}` : `${basicUrl}/default.png`)});
+  background-image: url(${props => (props.previewImage ? `/${props.previewImage}` : `/default.png`)});
   width: 100%;
   height: 100%;
   background-size: cover;

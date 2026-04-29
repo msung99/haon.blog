@@ -1,7 +1,6 @@
 import kebabCase from "lodash.kebabcase";
 import React from "react";
 import styled from "styled-components";
-import { siteMetadata } from "../../../gatsby-config";
 import SocialLinks from "../social-link";
 
 const Profile = ({ author, description, siteUrl, keywords, socialLinks}) => {
@@ -10,14 +9,14 @@ const Profile = ({ author, description, siteUrl, keywords, socialLinks}) => {
   return (
     <div>
       <ProfileStyle>
-        <Image siteUrl={siteUrl} />
+        <Image />
         <Text>
           <Author>{author}</Author>
           <Description>{truncatedDescription}</Description>
           <KeyWordsStyle>
             {keywords.map((keyword) => (
               <KeyWordStyle key={kebabCase(keyword)}>
-                {kebabCase(keyword)}
+                {keyword}
               </KeyWordStyle>
             ))}
           </KeyWordsStyle>
@@ -73,14 +72,8 @@ const KeyWordStyle = styled.span`
   background-color: ${(props) => props.theme.profile.keyword};
 `;
 
-const profileImageUrl =
-  typeof window !== "undefined" &&
-  window.location.host === "localhost:8000"
-    ? "http://localhost:8000"
-    : siteMetadata.siteUrl;
-
 const Image = styled.div`
-  background-image: url(${siteMetadata.siteUrl}/profile.png);
+  background-image: url(/profile.png);
   width: 140px;
   height: 140px;
   border: 1px solid transparent;

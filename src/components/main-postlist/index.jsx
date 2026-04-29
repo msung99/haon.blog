@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
 import styled from "styled-components";
-import { siteMetadata } from "../../../gatsby-config";
 
 const MainPostList = ({ posts }) => {
   // isPrivate가 false이고 isMainPost가 true인 항목만 필터링
@@ -76,16 +75,11 @@ const PostLink = styled(Link)`
   }
 `;
 
-const basicUrl =
-  typeof window !== "undefined" && window.location.host === "localhost:8000"
-    ? "http://localhost:8000"
-    : siteMetadata.siteUrl;
-
 const Thumbnail = styled.div`
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  background-image: url(${props => (props.previewImage ? `${basicUrl}/${props.previewImage}` : `${basicUrl}/default.png`)});
+  background-image: url(${props => (props.previewImage ? `/${props.previewImage}` : `/default.png`)});
   background-size: cover;
   background-position: center;
   flex-shrink: 0;
