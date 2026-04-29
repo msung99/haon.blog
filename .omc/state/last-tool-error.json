@@ -1,0 +1,7 @@
+{
+  "tool_name": "Bash",
+  "tool_input_preview": "{\"command\":\"grep -c \\\"linecorp\\\" /Users/al03160969/Desktop/haon.blog/package-lock.json /Users/al03160969/Desktop/haon.blog/yarn.lock /Users/al03160969/Desktop/haon.blog/.npmrc 2>&1\",\"description\":\"Ver...",
+  "error": "Exit code 2\nugrep: warning: /Users/al03160969/Desktop/haon.blog/.npmrc: No such file or directory\n/Users/al03160969/Desktop/haon.blog/yarn.lock:0\n/Users/al03160969/Desktop/haon.blog/package-lock.json:0",
+  "timestamp": "2026-04-29T06:54:21.804Z",
+  "retry_count": 1
+}

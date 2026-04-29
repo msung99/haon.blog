@@ -155,9 +155,21 @@
       "type": "file"
     },
     {
+      "path": "package-lock.json",
+      "accessCount": 3,
+      "lastAccessed": 1777445661574,
+      "type": "file"
+    },
+    {
       "path": "gatsby-config.js",
       "accessCount": 2,
       "lastAccessed": 1777443603444,
+      "type": "file"
+    },
+    {
+      "path": "yarn.lock",
+      "accessCount": 2,
+      "lastAccessed": 1777445635882,
       "type": "file"
     },
     {
