@@ -85,6 +85,7 @@ export const pageQuery = graphql`
           previewImage
           isPrivate
           isMainPost
+          mainPostOrder
         }
       }
       group(field: frontmatter___tags) {

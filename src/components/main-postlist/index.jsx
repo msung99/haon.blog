@@ -4,9 +4,20 @@ import styled from "styled-components";
 
 const MainPostList = ({ posts }) => {
   // isPrivate가 false이고 isMainPost가 true인 항목만 필터링
-  const mainPosts = posts.filter(
-    post => !post.frontmatter.isPrivate && post.frontmatter.isMainPost
-  );
+  const mainPosts = posts
+    .filter(post => !post.frontmatter.isPrivate && post.frontmatter.isMainPost)
+    .slice()
+    .sort((a, b) => {
+      // mainPostOrder가 작을수록 우선순위가 높음. 값이 없으면 가장 뒤로 보냄.
+      const orderA = a.frontmatter.mainPostOrder;
+      const orderB = b.frontmatter.mainPostOrder;
+      const hasA = typeof orderA === "number";
+      const hasB = typeof orderB === "number";
+      if (hasA && hasB) return orderA - orderB;
+      if (hasA) return -1;
+      if (hasB) return 1;
+      return 0;
+    });
 
   if (mainPosts.length === 0) {
     return null;

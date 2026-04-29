@@ -4,6 +4,8 @@ date: "2025-11-09"
 tags:
   - 독서
 previewImage: book.png
+isMainPost: true
+mainPostOrder: 3
 ---
 
 ![alt text](image-1.png)

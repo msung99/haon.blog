@@ -119,6 +119,12 @@
       "type": "file"
     },
     {
+      "path": "src/components/main-postlist/index.jsx",
+      "accessCount": 6,
+      "lastAccessed": 1777457964990,
+      "type": "file"
+    },
+    {
       "path": "src/components/postlist/index.jsx",
       "accessCount": 5,
       "lastAccessed": 1777439997659,
@@ -128,12 +134,6 @@
       "path": "src/components/profile/index.jsx",
       "accessCount": 4,
       "lastAccessed": 1777439997626,
-      "type": "file"
-    },
-    {
-      "path": "src/components/main-postlist/index.jsx",
-      "accessCount": 4,
-      "lastAccessed": 1777439997745,
       "type": "file"
     },
     {
@@ -170,6 +170,30 @@
       "path": "yarn.lock",
       "accessCount": 2,
       "lastAccessed": 1777445635882,
+      "type": "file"
+    },
+    {
+      "path": "src/pages/index.jsx",
+      "accessCount": 2,
+      "lastAccessed": 1777457968686,
+      "type": "file"
+    },
+    {
+      "path": "src/contents/posts/book/the-level-of-work/index.md",
+      "accessCount": 2,
+      "lastAccessed": 1777457984780,
+      "type": "file"
+    },
+    {
+      "path": "src/contents/posts/회고/2025-success-iine-server-developer/index.md",
+      "accessCount": 2,
+      "lastAccessed": 1777457985740,
+      "type": "file"
+    },
+    {
+      "path": "src/contents/posts/회고/growth-learning/index.md",
+      "accessCount": 2,
+      "lastAccessed": 1777457986522,
       "type": "file"
     },
     {

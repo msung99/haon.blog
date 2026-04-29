@@ -9,6 +9,7 @@ tags:
 series: 20년도 개발자 성장 관련 회고
 previewImage: line.png
 isMainPost: true
+mainPostOrder: 1
 ---
 
 ## LINE 개발자, LINER가 되었다

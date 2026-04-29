@@ -8,6 +8,7 @@ tags:
 series: 20년도 개발자 성장 관련 회고
 previewImage: kakao.png
 isMainPost: true
+mainPostOrder: 2
 ---
 
 ![alt text](image-10.png)
