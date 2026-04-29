@@ -29,7 +29,7 @@
     "runtime": null
   },
   "build": {
-    "buildCommand": "yarn build",
+    "buildCommand": "yarn build 2>&1 | tail -60",
     "testCommand": "yarn test",
     "lintCommand": null,
     "devCommand": "yarn start",
@@ -113,6 +113,12 @@
   },
   "hotPaths": [
     {
+      "path": "src/components/ad-banner/index.jsx",
+      "accessCount": 11,
+      "lastAccessed": 1777444577437,
+      "type": "file"
+    },
+    {
       "path": "src/components/postlist/index.jsx",
       "accessCount": 5,
       "lastAccessed": 1777439997659,
@@ -131,6 +137,18 @@
       "type": "file"
     },
     {
+      "path": "src/templates/Post.jsx",
+      "accessCount": 4,
+      "lastAccessed": 1777443770497,
+      "type": "file"
+    },
+    {
+      "path": "gatsby-ssr.js",
+      "accessCount": 4,
+      "lastAccessed": 1777444067577,
+      "type": "file"
+    },
+    {
       "path": "src/components/menu-bar/aside/index.jsx",
       "accessCount": 3,
       "lastAccessed": 1777439997692,
@@ -138,8 +156,26 @@
     },
     {
       "path": "gatsby-config.js",
+      "accessCount": 2,
+      "lastAccessed": 1777443603444,
+      "type": "file"
+    },
+    {
+      "path": "package.json",
       "accessCount": 1,
-      "lastAccessed": 1777439710876,
+      "lastAccessed": 1777443584811,
+      "type": "file"
+    },
+    {
+      "path": "src/components/post/post-header/index.jsx",
+      "accessCount": 1,
+      "lastAccessed": 1777443597196,
+      "type": "file"
+    },
+    {
+      "path": "src/components/post/post-component/index.jsx",
+      "accessCount": 1,
+      "lastAccessed": 1777443597254,
       "type": "file"
     }
   ],

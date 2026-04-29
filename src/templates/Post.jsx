@@ -5,6 +5,7 @@ import PageLayout from "../components/layout/page-component";
 import PostContent from "../components/post/post-content";
 import Utterances from "../components/utterances";
 import Seo from "../components/seo";
+import AdBanner from "../components/ad-banner";
 
 export default ({ data, location }) => {
   const { previous, next } = data;
@@ -27,6 +28,7 @@ export default ({ data, location }) => {
           tags={tags}
           series={series}
         />
+        <AdBanner/>
         <PostContent html={post.html} toc={toc}/>
         <Post.Footer previous={previous} next={next}/>
       </Post>
