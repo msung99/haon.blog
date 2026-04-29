@@ -12,8 +12,8 @@ module.exports = {
     title: `haon.blog`,
     description: `LINE+ 서버 개발자로 재직중인 이민성(Haon) 입니다.`,
     author: `Haon`,
-    siteUrl: `https://haon.blog/`,
-    keywords: [`@LINE`, `server developer`], 
+    siteUrl: `https://haon.site/`,
+    keywords: [`LINE`, `Server Engineer`], 
     repo: 'msung99/haon.blog',
     socialLinks: { 
       github: 'https://github.com/msung99', 
